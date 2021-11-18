@@ -27,7 +27,7 @@ if (-not (Test-Path ..\gh-pages\.nojekyll)) {
 }
 
 if (-not (Test-Path ..\gh-pages\CNAME)) {
-    "docs.365businessdev.com" > ..\gh-pages\CNAME
+    "downloads.365businessdev.com" > ..\gh-pages\CNAME
 }
 
 Write-Host "Publish website . . ."
@@ -35,8 +35,8 @@ try {
     Set-Location ..\gh-pages
     git add .
     git commit -m $("Site updated at " + (Get-Date -UFormat "%m/%d/%Y %R %Z"))
-    git push origin master --force
-    Set-Location ..\docs
+    git push origin main --force
+    Set-Location ..\downloads
 } catch {
     Write-Host "[ERROR]" -ForegroundColor Red
 }
