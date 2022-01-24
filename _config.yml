@@ -91,3 +91,5 @@ types:
   - major
 
 exclude: ["vendor"]
+
+keep_files: [.git, index.md, assets]
