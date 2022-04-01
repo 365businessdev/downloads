@@ -1,0 +1,37 @@
+In diesem Artikel werden die verschiedenen Runtime Packages für die 365 business development Find & Replace Erweiterung, für Microsoft Dynamics 365 Business Central veröffentlicht.
+
+Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer Microsoft Dynamics 365 Business Central On-Premise Installation verwenden können. Hierbei ist es wichtig die korrekte Version, für die bei Ihnen eingesetzte Plattform Version von Microsoft Dynamics 365 Business Central, zu verwenden.
+
+Bei den hier angebotenen Downloads handelt es sich stets um die aktuellste Version des Produkts oder der Erweiterung.
+
+#### Weitere Informationen
+
+In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen aufgeführt, die für Microsoft Dynamics 365 Business Central veröffentlicht wurden. Die entsprechende Funktionalität des eigentlichen Produkts oder der Erweiterung ist bei allen hier aufgeführten Versionen identisch.
+
+#### Plattform Versionen
+
+| Plattform Version | Business Central Version | Download |
+| --- | --- | --- |
+| `18.0.23013.23795` | Business Central 2021 Release Wave 1  | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=18.0.23013.23795) |
+| `18.1.24822.26330` | Business Central 2021 Release Wave 1 Cumulative Update 1 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=18.1.24822.26330) |
+| `18.2.26217.26490` | Business Central 2021 Release Wave 1 Cumulative Update 2 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=18.2.26217.26490) |
+| `18.3.27240.27480` | Business Central 2021 Release Wave 1 Cumulative Update 3 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=18.3.27240.27480) |
+| `18.4.28601.29139` | Business Central 2021 Release Wave 1 Cumulative Update 4 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=18.4.28601.29139) |
+| `18.5.29545.0` | Business Central 2021 Release Wave 1 Cumulative Update 5 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=18.5.29545.0) |
+| `18.6.30510.0` | Business Central 2021 Release Wave 1 Cumulative Update 6 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=18.6.30510.0) |
+| `18.7.31790.0` | Business Central 2021 Release Wave 1 Cumulative Update 7 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=18.7.31790.0) |
+| `18.8.33031.0` | Business Central 2021 Release Wave 1 Cumulative Update 8 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=18.8.33031.0) |
+| `18.10.35134.0` | Business Central 2021 Release Wave 1 Cumulative Update 10 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=18.10.35134.0) |
+| `18.10.35462.0` | Business Central 2021 Release Wave 1 Cumulative Update 10 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=18.10.35462.0) |
+| `18.11.36643.0` | Business Central 2021 Release Wave 1 Cumulative Update 11 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=18.11.36643.0) |
+| `19.0.29894.30693` | Business Central 2021 Release Wave 2  | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=19.0.29894.30693) |
+| `19.1.31886.32186` | Business Central 2021 Release Wave 2 Cumulative Update 1 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=19.1.31886.32186) |
+| `19.2.32968.33504` | Business Central 2021 Release Wave 2 Cumulative Update 2 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=19.2.32968.33504) |
+| `19.3.34541.35002` | Business Central 2021 Release Wave 2 Cumulative Update 3 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=19.3.34541.35002) |
+| `19.4.35398.35482` | Business Central 2021 Release Wave 2 Cumulative Update 4 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=19.4.35398.35482) |
+| `19.5.36567.36700` | Business Central 2021 Release Wave 2 Cumulative Update 5 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=19.5.36567.36700) |
+| `20.0.37253.38230` | Business Central 2022 Release Wave 1  | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=20.0.37253.38230) |
+| _latest_ | Aktuelle Version | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b) |
+
+### Siehe auch
+ - [Microsoft Docs - Runtime Packages Limitation (en-US)](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-creating-runtime-packages#limitations)
