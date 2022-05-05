@@ -12,7 +12,14 @@ The following table lists the various on-premise platform versions that have bee
 
 | Platform Version | Business Central Version | Download |
 | --- | --- | --- | 
-
+| `17.0.16993.0` | Business Central 2020 Release Wave 2  | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.0.16993.0) |
+| `17.1.18256.18474` | Business Central 2020 Release Wave 2 Cumulative Update 1 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.1.18256.18474) |
+| `17.1.18256.18792` | Business Central 2020 Release Wave 2 Cumulative Update 1 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.1.18256.18792) |
+| `17.2.19367.19735` | Business Central 2020 Release Wave 2 Cumulative Update 2 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.2.19367.19735) |
+| `17.3.20469.20605` | Business Central 2020 Release Wave 2 Cumulative Update 3 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.3.20469.20605) |
+| `17.4.21491.21531` | Business Central 2020 Release Wave 2 Cumulative Update 4 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.4.21491.21531) |
+| `17.5.22499.22546` | Business Central 2020 Release Wave 2 Cumulative Update 5 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.5.22499.22546) |
+| `17.6.23727.0` | Business Central 2020 Release Wave 2 Cumulative Update 6 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.6.23727.0) |
 | `17.7.26453.0` | Business Central 2020 Release Wave 2 Cumulative Update 7 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.7.26453.0) |
 | `17.8.27267.0` | Business Central 2020 Release Wave 2 Cumulative Update 8 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.8.27267.0) |
 | `17.9.28504.0` | Business Central 2020 Release Wave 2 Cumulative Update 9 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.9.28504.0) |
