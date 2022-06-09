@@ -4,7 +4,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 Bei den hier angebotenen Downloads handelt es sich stets um die aktuellste Version des Produkts oder der Erweiterung.
 
->**Hinweis**<br>Bitte beachten Sie, dass diese Erweiterung die [365 business API](../365-business-api/) Erweiterung, als Abhängigkeit voraussetzt.<br><br>Die Erweiterung können Sie [hier](../365-business-api/) herunterladen.
+>**Hinweis**<br>Bitte beachten Sie, dass diese Erweiterung die [365 business API](../365-business-api/) Erweiterung, als Abhängigkeit, voraussetzt.<br><br>Die Erweiterung können Sie [hier](../365-business-api/) herunterladen.
 
 #### Weitere Informationen
 
