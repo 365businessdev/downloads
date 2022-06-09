@@ -4,6 +4,8 @@ A runtime package is a precompiled application package that you can use in your 
 
 The downloads offered here are always the latest version of the product or extension.
 
+>**Note**<br>Please note that this extension requires the [365 business API](../365-business-api/) extension, as a dependency.<br><br>You can download the extension [here](../365-business-api/).
+
 #### Additional Information
 
 The following table lists the various on-premise platform versions that have been released for Microsoft Dynamics 365 Business Central. The corresponding functionality of the actual product or extension is identical for all versions listed here.
