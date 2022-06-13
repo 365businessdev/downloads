@@ -1,14 +1,14 @@
-﻿In diesem Artikel werden die verschiedenen Runtime Packages fÃ¼r die 365 business Address Validation Erweiterung, fÃ¼r Microsoft Dynamics 365 Business Central verÃ¶ffentlicht.
+﻿In diesem Artikel werden die verschiedenen Runtime Packages für die 365 business Address Validation Erweiterung, für Microsoft Dynamics 365 Business Central veröffentlicht.
 
-Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer Microsoft Dynamics 365 Business Central On-Premise Installation verwenden kÃ¶nnen. Hierbei ist es wichtig die korrekte Version, fÃ¼r die bei Ihnen eingesetzte Plattform Version von Microsoft Dynamics 365 Business Central, zu verwenden.
+Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer Microsoft Dynamics 365 Business Central On-Premise Installation verwenden können. Hierbei ist es wichtig die korrekte Version, für die bei Ihnen eingesetzte Plattform Version von Microsoft Dynamics 365 Business Central, zu verwenden.
 
 Bei den hier angebotenen Downloads handelt es sich stets um die aktuellste Version des Produkts oder der Erweiterung.
 
->**Hinweis**<br>Bitte beachten Sie, dass diese Erweiterung die [365 business API](../365-business-api/) Erweiterung, als AbhÃ¤ngigkeit, voraussetzt.<br><br>Die Erweiterung kÃ¶nnen Sie [hier](../365-business-api/) herunterladen.
+>**Hinweis**<br>Bitte beachten Sie, dass diese Erweiterung die [365 business API](../365-business-api/) Erweiterung, als Abhängigkeit, voraussetzt.<br><br>Die Erweiterung können Sie [hier](../365-business-api/) herunterladen.
 
 #### Weitere Informationen
 
-In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen aufgefÃ¼hrt, die fÃ¼r Microsoft Dynamics 365 Business Central verÃ¶ffentlicht wurden. Die entsprechende FunktionalitÃ¤t des eigentlichen Produkts oder der Erweiterung ist bei allen hier aufgefÃ¼hrten Versionen identisch.
+In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen aufgeführt, die für Microsoft Dynamics 365 Business Central veröffentlicht wurden. Die entsprechende Funktionalität des eigentlichen Produkts oder der Erweiterung ist bei allen hier aufgeführten Versionen identisch.
 
 #### Plattform Versionen
 

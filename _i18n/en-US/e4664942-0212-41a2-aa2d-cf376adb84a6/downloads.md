@@ -1,4 +1,4 @@
-﻿This article publishes the various runtime packages for the 365 business Address Validation extension, for Microsoft Dynamics 365 Business Central.
+﻿This article publishes the various runtime packages for the $appName extension, for Microsoft Dynamics 365 Business Central.
 
 A runtime package is a precompiled application package that you can use in your Microsoft Dynamics 365 Business Central on-premise installation. It is important to use the correct version for your platform version of Microsoft Dynamics 365 Business Central.
 
