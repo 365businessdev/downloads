@@ -1,4 +1,4 @@
-In diesem Artikel werden die verschiedenen Runtime Packages für die 365 business PDF Erweiterung, für Microsoft Dynamics 365 Business Central veröffentlicht.
+﻿In diesem Artikel werden die verschiedenen Runtime Packages für die 365 business PDF Erweiterung, für Microsoft Dynamics 365 Business Central veröffentlicht.
 
 Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer Microsoft Dynamics 365 Business Central On-Premise Installation verwenden können. Hierbei ist es wichtig die korrekte Version, für die bei Ihnen eingesetzte Plattform Version von Microsoft Dynamics 365 Business Central, zu verwenden.
 
@@ -16,7 +16,9 @@ In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen a
 | --- | --- | --- |
 | `20.0.37253.38230` | Business Central 2022 Release Wave 1  | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=20.0.37253.38230) |
 | `20.1.39764.39901` | Business Central 2022 Release Wave 1 Cumulative Update 1 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=20.1.39764.39901) |
-| _latest_ | Aktuelle Version | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856) |
+| `20.2.41144.41423` | Business Central 2022 Release Wave 1 Cumulative Update 2 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=20.2.41144.41423) |
+| _latest_ | Latest Version | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856) |
+
 
 ### Siehe auch
  - [Microsoft Docs - Runtime Packages Limitation (en-US)](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-creating-runtime-packages#limitations)
