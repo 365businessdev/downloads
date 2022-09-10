@@ -19,6 +19,7 @@ In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen a
 | `20.2.41144.41423` | Business Central 2022 Release Wave 1 Cumulative Update 2 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=20.2.41144.41423) |
 | `20.3.42673.43026` | Business Central 2022 Release Wave 1 Cumulative Update 3 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=20.3.42673.43026) |
 | `20.4.44313.44365` | Business Central 2022 Release Wave 1 Cumulative Update 4 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=20.4.44313.44365) |
+| `20.5.45456.45889` | Business Central 2022 Release Wave 1 Cumulative Update 5 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=20.5.45456.45889) |
 | _latest_ | Latest Version | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856) |
 
 
