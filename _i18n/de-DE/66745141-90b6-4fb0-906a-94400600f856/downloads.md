@@ -14,7 +14,10 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 ##### Abhängigkeiten
 
 | Name | Version | 
-| --- | --- || 365 business API |  |
+
+| --- | --- | 
+| 365 business API | 14.0.0.0 | 
+
 
 #### Weitere Informationen
 
