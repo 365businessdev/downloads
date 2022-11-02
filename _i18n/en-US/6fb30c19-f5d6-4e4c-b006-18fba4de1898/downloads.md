@@ -4,7 +4,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 #### Application Information
 
-**Version:** 18.0.33.6426
+**Version:** 18.0.33.6426 
 
 **Updated:** 11/02/2022
 
@@ -14,7 +14,10 @@ A runtime package is a precompiled application package that you can use in your 
 ##### Dependencies
 
 | Name | Version | 
-| --- | --- || Extension License Manager |  |
+
+| --- | --- | 
+| Extension License Manager | 1.0.12.0 | 
+
 
 #### Additional Information
 

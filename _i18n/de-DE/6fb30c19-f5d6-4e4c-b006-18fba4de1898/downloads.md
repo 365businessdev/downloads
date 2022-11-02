@@ -14,7 +14,10 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 ##### Abhängigkeiten
 
 | Name | Version | 
-| --- | --- || Extension License Manager |  |
+
+| --- | --- | 
+| Extension License Manager | 1.0.12.0 | 
+
 
 #### Weitere Informationen
 
