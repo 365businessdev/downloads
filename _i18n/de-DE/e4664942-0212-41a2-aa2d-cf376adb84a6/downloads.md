@@ -2,15 +2,26 @@
 
 Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer Microsoft Dynamics 365 Business Central On-Premise Installation verwenden können. Hierbei ist es wichtig die korrekte Version, für die bei Ihnen eingesetzte Plattform Version von Microsoft Dynamics 365 Business Central, zu verwenden.
 
-Bei den hier angebotenen Downloads handelt es sich stets um die aktuellste Version des Produkts oder der Erweiterung.
+#### Anwendungsinformationen
 
->**Hinweis**<br>Bitte beachten Sie, dass diese Erweiterung die [365 business API](../365-business-api/) Erweiterung, als Abhängigkeit, voraussetzt.<br><br>Die Erweiterung können Sie [hier](../365-business-api/) herunterladen.
+**Version:** 18.7.86.6114
+
+**Zuletzt aktualisiert:** 02.11.2022
+
+>**Hinweis**<br>Die aktuelle Dokumentation zu dieser Version finden Sie unter [https://docs.365businessdev.com/de-DE/365-business-address-validation/](https://docs.365businessdev.com/de-DE/365-business-address-validation/).
+
+
+##### Abhängigkeiten
+
+| Name | Version | 
+| --- | --- || 365 business API |  || Extension License Manager |  |
 
 #### Weitere Informationen
 
 In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen aufgeführt, die für Microsoft Dynamics 365 Business Central veröffentlicht wurden. Die entsprechende Funktionalität des eigentlichen Produkts oder der Erweiterung ist bei allen hier aufgeführten Versionen identisch.
 
 #### Plattform Versionen
+
 
 | Platform Version | Business Central Version | Download |
 | --- | --- | --- |
@@ -55,6 +66,7 @@ In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen a
 | `20.6.47024.0` | Business Central 2022 Release Wave 1 Cumulative Update 6 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=e4664942-0212-41a2-aa2d-cf376adb84a6&version=20.6.47024.0) |
 | `21.0.46256.46853` | Business Central 2022 Release Wave 2  | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=e4664942-0212-41a2-aa2d-cf376adb84a6&version=21.0.46256.46853) |
 | _latest_ | Latest Version | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=e4664942-0212-41a2-aa2d-cf376adb84a6) |
+
 
 
 ### Siehe auch

@@ -1,16 +1,27 @@
-﻿This article publishes the various runtime packages for the $appName extension, for Microsoft Dynamics 365 Business Central.
+﻿This article publishes the various runtime packages for the 365 business Address Validation extension, for Microsoft Dynamics 365 Business Central.
 
 A runtime package is a precompiled application package that you can use in your Microsoft Dynamics 365 Business Central on-premise installation. It is important to use the correct version for your platform version of Microsoft Dynamics 365 Business Central.
 
-The downloads offered here are always the latest version of the product or extension.
+#### Application Information
 
->**Note**<br>Please note that this extension requires the [365 business API](../365-business-api/) extension, as a dependency.<br><br>You can download the extension [here](../365-business-api/).
+**Version:** 18.7.86.6114
+
+**Updated:** 11/02/2022
+
+>**Hinweis**<br>The current documentation for this version can be found at [https://docs.365businessdev.com/en-US/365-business-address-validation/](https://docs.365businessdev.com/de-DE/365-business-address-validation/).
+
+
+##### Dependencies
+
+| Name | Version | 
+| --- | --- || 365 business API |  || Extension License Manager |  |
 
 #### Additional Information
 
 The following table lists the various on-premise platform versions that have been released for Microsoft Dynamics 365 Business Central. The corresponding functionality of the actual product or extension is identical for all versions listed here.
 
 #### Platform Versions
+
 
 | Platform Version | Business Central Version | Download |
 | --- | --- | --- |
@@ -55,6 +66,7 @@ The following table lists the various on-premise platform versions that have bee
 | `20.6.47024.0` | Business Central 2022 Release Wave 1 Cumulative Update 6 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=e4664942-0212-41a2-aa2d-cf376adb84a6&version=20.6.47024.0) |
 | `21.0.46256.46853` | Business Central 2022 Release Wave 2  | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=e4664942-0212-41a2-aa2d-cf376adb84a6&version=21.0.46256.46853) |
 | _latest_ | Latest Version | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=e4664942-0212-41a2-aa2d-cf376adb84a6) |
+
 
 
 ### See also
