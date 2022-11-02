@@ -3,13 +3,11 @@
 A runtime package is a precompiled application package that you can use in your Microsoft Dynamics 365 Business Central on-premise installation. It is important to use the correct version for your platform version of Microsoft Dynamics 365 Business Central.
 
 #### Application Information
-
-**Version:** 17.6.32.5650 
-
-**Updated:** 11/02/2022
-
->**Hinweis**<br>The current documentation for this version can be found at [https://docs.365businessdev.com/en-US/365-business-api/](https://docs.365businessdev.com/de-DE/365-business-api/).
-
+ 
+**Version:** 17.6.32.5650<br>**Updated:** 11/02/2022
+ 
+>**Hinweis**<br>The current documentation for this version can be found at [https://docs.365businessdev.com/en-US/365-business-api/](https://docs.365businessdev.com/en-US/365-business-api/).
+ 
 
 
 #### Additional Information
