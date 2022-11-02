@@ -4,7 +4,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 #### Application Information
 
-**Version:** 17.6.32.5650
+**Version:** 17.6.32.5650 
 
 **Updated:** 11/02/2022
 
