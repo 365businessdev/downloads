@@ -14,7 +14,11 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 ##### Abhängigkeiten
 
 | Name | Version | 
-| --- | --- || 365 business API |  || ELSTER VAT Localization for Germany |  |
+
+| --- | --- | 
+| 365 business API | 17.5.0.0 | 
+| ELSTER VAT Localization for Germany | 1.0.0.0 | 
+
 
 #### Weitere Informationen
 
