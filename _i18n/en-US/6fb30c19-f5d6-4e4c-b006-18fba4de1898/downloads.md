@@ -3,20 +3,16 @@
 A runtime package is a precompiled application package that you can use in your Microsoft Dynamics 365 Business Central on-premise installation. It is important to use the correct version for your platform version of Microsoft Dynamics 365 Business Central.
 
 #### Application Information
-
-**Version:** 18.0.33.6426 
-
-**Updated:** 11/02/2022
-
->**Hinweis**<br>The current documentation for this version can be found at [https://docs.365businessdev.com/en-US/365-business-print-agent](https://docs.365businessdev.com/de-DE/365-business-print-agent).
-
-
-##### Dependencies
-
-| Name | Version | 
-
+ 
+**Version:** 18.0.33.6426<br>**Updated:** 11/02/2022
+ 
+>**Hinweis**<br>The current documentation for this version can be found at [https://docs.365businessdev.com/en-US/365-business-print-agent](https://docs.365businessdev.com/en-US/365-business-print-agent).
+ 
+##### Dependencies 
+ 
+| Name | Version |
 | --- | --- | 
-| Extension License Manager | 1.0.12.0 | 
+| Extension License Manager | 1.0.12.0 or later | 
 
 
 #### Additional Information

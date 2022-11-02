@@ -3,20 +3,16 @@
 Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer Microsoft Dynamics 365 Business Central On-Premise Installation verwenden können. Hierbei ist es wichtig die korrekte Version, für die bei Ihnen eingesetzte Plattform Version von Microsoft Dynamics 365 Business Central, zu verwenden.
 
 #### Anwendungsinformationen
-
-**Version:** 18.0.33.6426
-
-**Zuletzt aktualisiert:** 02.11.2022
-
+ 
+**Version:** 18.0.33.6426<br>**Zuletzt aktualisiert:** 02.11.2022
+ 
 >**Hinweis**<br>Die aktuelle Dokumentation zu dieser Version finden Sie unter [https://docs.365businessdev.com/de-DE/365-business-print-agent](https://docs.365businessdev.com/de-DE/365-business-print-agent).
-
-
-##### Abhängigkeiten
-
-| Name | Version | 
-
+ 
+##### Abhängigkeiten 
+ 
+| Name | Version |
 | --- | --- | 
-| Extension License Manager | 1.0.12.0 | 
+| Extension License Manager | 1.0.12.0 oder neuer | 
 
 
 #### Weitere Informationen
