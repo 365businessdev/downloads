@@ -4,8 +4,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 #### Application Information
  
-**Version:** 18.7.86.6114
-**Updated:** 11/02/2022
+**Version:** 18.7.86.6114<br>**Updated:** 11/02/2022
  
 >**Hinweis**<br>The current documentation for this version can be found at [https://docs.365businessdev.com/en-US/365-business-address-validation/](https://docs.365businessdev.com/en-US/365-business-address-validation/).
  
@@ -13,8 +12,8 @@ A runtime package is a precompiled application package that you can use in your 
  
 | Name | Version |
 | --- | --- | 
-| 365 business API | 17.5.0.0 | 
-| Extension License Manager | 1.0.0.0 | 
+| 365 business API | 17.5.0.0 or later | 
+| Extension License Manager | 1.0.0.0 or later | 
 
 
 #### Additional Information

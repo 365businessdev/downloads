@@ -4,8 +4,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 #### Anwendungsinformationen
  
-**Version:** 18.7.86.6114
-**Zuletzt aktualisiert:** 02.11.2022
+**Version:** 18.7.86.6114<br>**Zuletzt aktualisiert:** 02.11.2022
  
 >**Hinweis**<br>Die aktuelle Dokumentation zu dieser Version finden Sie unter [https://docs.365businessdev.com/de-DE/365-business-address-validation/](https://docs.365businessdev.com/de-DE/365-business-address-validation/).
  
@@ -13,8 +12,8 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
  
 | Name | Version |
 | --- | --- | 
-| 365 business API | 17.5.0.0 | 
-| Extension License Manager | 1.0.0.0 | 
+| 365 business API | 17.5.0.0 oder neuer | 
+| Extension License Manager | 1.0.0.0 oder neuer | 
 
 
 #### Weitere Informationen
