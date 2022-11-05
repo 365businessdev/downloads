@@ -4,7 +4,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 #### Anwendungsinformationen
  
-**Version:** 18.0.33.6426<br>**Zuletzt aktualisiert:** 02.11.2022
+**Version:** 18.0.36.6522<br>**Zuletzt aktualisiert:** 05.11.2022
  
 >**Hinweis**<br>Die aktuelle Dokumentation zu dieser Version finden Sie unter [https://docs.365businessdev.com/de-DE/365-business-print-agent](https://docs.365businessdev.com/de-DE/365-business-print-agent).
  
@@ -12,7 +12,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
  
 | Name | Version |
 | --- | --- | 
-| Extension License Manager | 1.0.12.0 oder neuer | 
+| Extension License Manager | 1.0.14.6456 oder neuer | 
 
 
 #### Weitere Informationen
