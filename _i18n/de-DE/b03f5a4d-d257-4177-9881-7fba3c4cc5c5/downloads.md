@@ -4,7 +4,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 #### Anwendungsinformationen
  
-**Version:** 17.9.132.5631<br>**Zuletzt aktualisiert:** 05.12.2022
+**Version:** 17.10.151.6871<br>**Zuletzt aktualisiert:** 08.12.2022
  
 >**Hinweis**<br>Die aktuelle Dokumentation zu dieser Version finden Sie unter [https://docs.365businessdev.com/de-DE/365-business-eric/](https://docs.365businessdev.com/de-DE/365-business-eric/).
  
@@ -63,9 +63,6 @@ In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen a
 | `18.16.44351.0` | Business Central 2021 Release Wave 1 Cumulative Update 16 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=18.16.44351.0) |
 | `18.17.45832.0` | Business Central 2021 Release Wave 1 Cumulative Update 17 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=18.17.45832.0) |
 | `18.18.46920.0` | Business Central 2021 Release Wave 1 Cumulative Update 18 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=18.18.46920.0) |
-| `19.0.29894.30693` | Business Central 2021 Release Wave 2  | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=19.0.29894.30693) |
-| `19.1.31886.32186` | Business Central 2021 Release Wave 2 Cumulative Update 1 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=19.1.31886.32186) |
-| `19.2.32968.33504` | Business Central 2021 Release Wave 2 Cumulative Update 2 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=19.2.32968.33504) |
 | `19.3.34541.35002` | Business Central 2021 Release Wave 2 Cumulative Update 3 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=19.3.34541.35002) |
 | `19.4.35398.35482` | Business Central 2021 Release Wave 2 Cumulative Update 4 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=19.4.35398.35482) |
 | `19.5.36567.36700` | Business Central 2021 Release Wave 2 Cumulative Update 5 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=19.5.36567.36700) |
