@@ -35,7 +35,7 @@ try {
     Set-Location ..\gh-pages
     git add .
     git commit -m $("Site updated at " + (Get-Date -UFormat "%m/%d/%Y %R %Z"))
-    git push origin main --force
+    git push origin gh-pages --force
     Set-Location ..\downloads
 } catch {
     Write-Host "[ERROR]" -ForegroundColor Red
