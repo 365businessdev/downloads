@@ -4,7 +4,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 #### Application Information
  
-**Version:** 1.1.18.7423<br>**Updated:** 01/26/2023
+**Version:** 1.1.18.7423<br>**Updated:** 01/29/2023
  
 >**Hinweis**<br>The current documentation for this version can be found at [https://docs.365businessdev.com/](https://docs.365businessdev.com/).
  
