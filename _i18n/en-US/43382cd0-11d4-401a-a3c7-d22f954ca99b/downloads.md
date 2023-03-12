@@ -4,7 +4,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 #### Application Information
  
-**Version:** 18.0.7.5625<br>**Updated:** 03/05/2023
+**Version:** 18.0.7.5625<br>**Updated:** 03/12/2023
  
 >**Hinweis**<br>The current documentation for this version can be found at [https://docs.365businessdev.com/en-US/find-and-replace/](https://docs.365businessdev.com/en-US/find-and-replace/).
  
@@ -74,6 +74,7 @@ The following table lists the various on-premise platform versions that have bee
 | `21.3.51409.51464` | Business Central 2022 Release Wave 2 Cumulative Update 3 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=21.3.51409.51464) |
 | `21.3.51409.52692` | Business Central 2022 Release Wave 2 Cumulative Update 3 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=21.3.51409.52692) |
 | `21.4.52563.52785` | Business Central 2022 Release Wave 2 Cumulative Update 4 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=21.4.52563.52785) |
+| `21.5.53619.53819` | Business Central 2022 Release Wave 2 Cumulative Update 5 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=21.5.53619.53819) |
 | _latest_ | Latest Version | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b) |
 
 
