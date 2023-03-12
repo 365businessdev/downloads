@@ -4,7 +4,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 #### Anwendungsinformationen
  
-**Version:** 20.1.12.5629<br>**Zuletzt aktualisiert:** 05.03.2023
+**Version:** 20.1.12.5629<br>**Zuletzt aktualisiert:** 12.03.2023
  
 >**Hinweis**<br>Die aktuelle Dokumentation zu dieser Version finden Sie unter [https://docs.365businessdev.com/de-DE/365-business-pdf/](https://docs.365businessdev.com/de-DE/365-business-pdf/).
  
@@ -42,6 +42,7 @@ In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen a
 | `21.3.51409.51464` | Business Central 2022 Release Wave 2 Cumulative Update 3 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=21.3.51409.51464) |
 | `21.3.51409.52692` | Business Central 2022 Release Wave 2 Cumulative Update 3 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=21.3.51409.52692) |
 | `21.4.52563.52785` | Business Central 2022 Release Wave 2 Cumulative Update 4 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=21.4.52563.52785) |
+| `21.5.53619.53819` | Business Central 2022 Release Wave 2 Cumulative Update 5 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=21.5.53619.53819) |
 | _latest_ | Latest Version | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856) |
 
 
