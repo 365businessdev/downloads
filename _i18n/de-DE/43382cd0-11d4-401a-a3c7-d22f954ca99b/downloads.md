@@ -4,18 +4,29 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 #### Anwendungsinformationen
  
-**Version:** 18.0.7.5625<br>**Zuletzt aktualisiert:** 09.04.2023
+**Version:** 18.0.7.5625<br>**Zuletzt aktualisiert:** 11.04.2023
  
 >**Hinweis**<br>Die aktuelle Dokumentation zu dieser Version finden Sie unter [https://docs.365businessdev.com/de-DE/find-and-replace/](https://docs.365businessdev.com/de-DE/find-and-replace/).
  
 
+
+#### Installation
+
+Verwenden Sie folgenden Befehl zur Installation der Find & Replace Erweiterung für Microsoft Dynamics 365 Business Central, mit dem <a href="https://365businessdev.github.io/downloads/assets/Install-Apps.ps1" target="_blank" title="Download 365 business development App Installer">365 business development App Installer</a>:
+```ps
+.\Install-Apps.ps1 -appIds @(
+	'', #  by 
+	'43382cd0-11d4-401a-a3c7-d22f954ca99b'  # Find & Replace by 365 business development
+)
+```
+
+>**Mehr erfahren**<br>Besuchen Sie unsere [Installation Dokumentation](../install-how-to/) für weitere Informationen.
 
 #### Weitere Informationen
 
 In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen aufgeführt, die für Microsoft Dynamics 365 Business Central veröffentlicht wurden. Die entsprechende Funktionalität des eigentlichen Produkts oder der Erweiterung ist bei allen hier aufgeführten Versionen identisch.
 
 #### Plattform Versionen
-
 
 | Platform Version | Business Central Version | Download |
 | --- | --- | --- |
