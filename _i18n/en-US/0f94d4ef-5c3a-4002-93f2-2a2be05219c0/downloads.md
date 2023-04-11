@@ -4,11 +4,23 @@ A runtime package is a precompiled application package that you can use in your 
 
 #### Application Information
  
-**Version:** 17.6.32.5650<br>**Updated:** 04/09/2023
+**Version:** 17.6.32.5650<br>**Updated:** 04/11/2023
  
->**Hinweis**<br>The current documentation for this version can be found at [https://docs.365businessdev.com/en-US/365-business-api/](https://docs.365businessdev.com/en-US/365-business-api/).
+>**Note**<br>The current documentation for this version can be found at [https://docs.365businessdev.com/en-US/365-business-api/](https://docs.365businessdev.com/en-US/365-business-api/).
  
 
+
+#### Installation
+
+Use the following command to install the 365 business API extension for Microsoft Dynamics 365 Business Central, using the <a href="https://365businessdev.github.io/downloads/assets/Install-Apps.ps1" target="_blank" title="Download 365 business development App Installer">365 business development App Installer</a>:
+```ps
+.\Install-Apps.ps1 -appIds @(
+	'', #  by 
+	'0f94d4ef-5c3a-4002-93f2-2a2be05219c0'  # 365 business API by 365 business development
+)
+```
+
+>**Learn more**<br>Visit our [installation documentation](../install-how-to/) for more information.
 
 #### Additional Information
 
