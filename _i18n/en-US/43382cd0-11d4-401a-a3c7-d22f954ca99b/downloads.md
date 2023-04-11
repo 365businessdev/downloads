@@ -15,7 +15,6 @@ A runtime package is a precompiled application package that you can use in your 
 Use the following command to install the Find & Replace extension for Microsoft Dynamics 365 Business Central, using the <a href="https://365businessdev.github.io/downloads/assets/Install-Apps.ps1" target="_blank" title="Download 365 business development App Installer">365 business development App Installer</a>:
 ```ps
 .\Install-Apps.ps1 -appIds @(
-	'', #  by 
 	'43382cd0-11d4-401a-a3c7-d22f954ca99b'  # Find & Replace by 365 business development
 )
 ```

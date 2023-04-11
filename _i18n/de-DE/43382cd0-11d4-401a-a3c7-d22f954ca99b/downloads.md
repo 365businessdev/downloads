@@ -15,7 +15,6 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 Verwenden Sie folgenden Befehl zur Installation der Find & Replace Erweiterung für Microsoft Dynamics 365 Business Central, mit dem <a href="https://365businessdev.github.io/downloads/assets/Install-Apps.ps1" target="_blank" title="Download 365 business development App Installer">365 business development App Installer</a>:
 ```ps
 .\Install-Apps.ps1 -appIds @(
-	'', #  by 
 	'43382cd0-11d4-401a-a3c7-d22f954ca99b'  # Find & Replace by 365 business development
 )
 ```
