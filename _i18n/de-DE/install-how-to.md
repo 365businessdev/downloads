@@ -8,6 +8,12 @@ Die Installation von Erweiterungen in Microsoft Dynamics 365 Business Central On
 
 >**Gut zu wissen**<br>Sie finden bei den jeweiligen Produktdownloads den exakten PowerShell Befehl, den Sie ausführen müssen.<br>Auf dieser Seite wird die generelle Installation beschrieben.
 
+#### Download
+
+Der `365 business development App Installer` wird auf GitHub gehostet und kann von dort heruntergeladen werden:
+
+ - [365 business development App Installer](https://github.com/365businessdev/downloads/blob/0b3f7d9d7a9c2f4065acde43fec993c40e7224e0/assets/Install-Apps.ps1)
+
 ##### Ablauf
 
 Der `365 business development App Installer` führt grundsätzlich folgende Schritte aus:
@@ -25,13 +31,18 @@ Der `365 business development App Installer` führt grundsätzlich folgende Schr
 
 Der `365 business development App Installer` muss in einer PowerShell Sitzung mit erhöhten Rechten (Administrator) ausgeführt werden. Die Ausführung muss auf dem Microsoft Dynamics 365 Business Central Server erfolgen, da die Microsoft Dynamics 365 Business Central PowerShell Module für die Installation benötigt werden.
 
-```ps
+###### Befehl
 
+```ps
 PS C:\Run> .\Install-Apps.ps1 -appIds @(
         "fcfc9bac-8f9b-402f-9e64-30a8287bc78f", # Extension License Manager
         "6fb30c19-f5d6-4e4c-b006-18fba4de1898"  # 365 business Print Agent
     )
+```
 
+###### Ausgabe
+
+```
 365 business development App Installer
 
 Checking Prerequisites . . .

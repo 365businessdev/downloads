@@ -8,6 +8,12 @@ The installation of apps and extensions in Microsoft Dynamics 365 Business Centr
 
 >**Good to know**<br>You can find the exact PowerShell command you need to run in the respective product downloads.<br>This page describes the general installation.
 
+#### Download
+
+The `365 business development App Installer` is hosted on GitHub and can be downloaded from there:
+
+ - [365 business development App Installer](https://github.com/365businessdev/downloads/blob/0b3f7d9d7a9c2f4065acde43fec993c40e7224e0/assets/Install-Apps.ps1)
+
 ##### Process
 
 The `365 business development App Installer` basically performs the following steps:
@@ -25,7 +31,7 @@ The `365 business development App Installer` basically performs the following st
 
 The `365 business development App Installer` must be executed in a PowerShell session with elevated privileges (administrator). The execution must be done on the Microsoft Dynamics 365 Business Central Server, because the Microsoft Dynamics 365 Business Central PowerShell modules are required for the installation.
 
-
+###### Command
 
 ```ps
 
@@ -33,6 +39,11 @@ PS C:\Run> .\Install-Apps.ps1 -appIds @(
         "fcfc9bac-8f9b-402f-9e64-30a8287bc78f", # Extension License Manager
         "6fb30c19-f5d6-4e4c-b006-18fba4de1898"  # 365 business Print Agent
     )
+```
+
+###### Output
+
+```
 
 365 business development App Installer
 
