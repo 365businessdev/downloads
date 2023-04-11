@@ -1,6 +1,7 @@
 ---
 permalink: /install-how-to/
 title: install-how-to
+category: installation
 show: false
 ---
 
