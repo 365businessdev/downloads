@@ -73,6 +73,7 @@
 				<ul>
 					
 					
+						
 						<li class="nav-item top-level ">
 							
 							<a href="/de-DE/365-business-api/">365 business API</a>
@@ -82,6 +83,7 @@
 							</ul>
 						</li>
 					
+						
 						<li class="nav-item top-level ">
 							
 							<a href="/de-DE/365-business-development-find-and-replace/">365 business development Find & Replace</a>
@@ -91,6 +93,7 @@
 							</ul>
 						</li>
 					
+						
 						<li class="nav-item top-level ">
 							
 							<a href="/de-DE/365-business-pdf/">365 business PDF</a>
@@ -100,6 +103,7 @@
 							</ul>
 						</li>
 					
+						
 						<li class="nav-item top-level ">
 							
 							<a href="/de-DE/365-business-print-agent/">365 business Print Agent</a>
@@ -109,6 +113,7 @@
 							</ul>
 						</li>
 					
+						
 						<li class="nav-item top-level ">
 							
 							<a href="/de-DE/365-business-barcode/">365 business Barcode</a>
@@ -118,6 +123,7 @@
 							</ul>
 						</li>
 					
+						
 						<li class="nav-item top-level ">
 							
 							<a href="/de-DE/365-business-eric/">365 business ERiC</a>
@@ -127,6 +133,7 @@
 							</ul>
 						</li>
 					
+						
 						<li class="nav-item top-level ">
 							
 							<a href="/de-DE/365-business-address-validation/">365 business Address Validation</a>
@@ -136,6 +143,7 @@
 							</ul>
 						</li>
 					
+						
 						<li class="nav-item top-level ">
 							
 							<a href="/de-DE/license-manager/">Extension License Manager</a>
@@ -145,19 +153,11 @@
 							</ul>
 						</li>
 					
-						<li class="nav-item top-level ">
-							
-							<a href="/de-DE/installation/">Installation</a>
-							<ul>
-								
-									 
-							</ul>
-						</li>
-					
+						 
 				</ul>
 				<ul>
 					<li class="nav-item top-level">
-						<a href="/de-DE/install-how-to/">Installation</a>
+						<a href="/de-DE/install-how-to/">Wie installieren?</a>
 					</li>
 					<li class="nav-item top-level">
 						<a href="https://docs.365businessdev.com">Dokumentation</a>
@@ -321,7 +321,7 @@
 
 					"install-how-to": {
 						"id": "install-how-to",
-						"title": "Installation  - Installation",
+						"title": "Installation  - Wie installieren?",
 						"category": "",
 						"url": " /install-how-to/",
 						"content": "Für Microsoft Dynamics 365 Business Central On-Premise Umgebungen werden sogenannte Runtime Packages zur Verfügung gestellt. Hierbei handelt es sich um vorkompilierte Erweiterungen, die Sie direkt in Ihrer Microsoft Dynamics 365 Business Central Umgebung installieren können.\n\n\n  Wichtiger HinweisEs ist wichtig die korrekte Version, für die bei Ihnen eingesetzte Plattform Version von Microsoft Dynamics 365 Business Central, zu verwenden. Runtime Packages sind nur für die Version für die Sie kompiliert wurden kompatibel. Der Einsatz in einer anderen Version kann zu Fehlern führen.\n\n\nInstallation\n\nDie Installation von Erweiterungen in Microsoft Dynamics 365 Business Central On-Premise Umgebungen findet über die Windows PowerShell statt. Um die Installation zu vereinfachen und das Fehlerpotential zu verringern stellen wir ein PowerShell Script, den 365 business development App Installer, zur Verfügung, welches Sie zur Installation unserer Erweiterungen für Microsoft Dynamics 365 Business Central verwenden können.\n\n\n  Gut zu wissenSie finden bei den jeweiligen Produktdownloads den exakten PowerShell Befehl, den Sie ausführen müssen.Auf dieser Seite wird die generelle Installation beschrieben.\n\n\nAblauf\n\nDer 365 business development App Installer führt grundsätzlich folgende Schritte aus:\n\n\n  Identifizierung der, auf dem aktuellen Computer, installierten Microsoft Dynamics 365 Business Central Service Instanzen.\n  Auswahl der Microsoft Dynamics 365 Business Central Service Instanz für die Installation (Nur wenn mehr als eine Instanz gefunden wurde).\n  Identifizierung der Plattform Version.\n  Download der korrekten Version der zu installierenden Erweiterungen / Apps.\n  Installation der Erweiterungen / Apps.\n  Schemasynchronisation der Erweiterungen / Apps.\n  Update der Erweiterungen / Apps (Falls bereits eine frühere Version installiert war).\n  Deinstallation der alten Version der Erweiterung / Apps (Falls bereits eine frühere Version installiert war).\n\n\nAusführung\n\nDer 365 business development App Installer muss in einer PowerShell Sitzung mit erhöhten Rechten (Administrator) ausgeführt werden. Die Ausführung muss auf dem Microsoft Dynamics 365 Business Central Server erfolgen, da die Microsoft Dynamics 365 Business Central PowerShell Module für die Installation benötigt werden.\n\n\nPS C:\\Run&gt; .\\Install-Apps.ps1 -appIds @(\n        \"fcfc9bac-8f9b-402f-9e64-30a8287bc78f\", # Extension License Manager\n        \"6fb30c19-f5d6-4e4c-b006-18fba4de1898\"  # 365 business Print Agent\n    )\n\n365 business development App Installer\n\nChecking Prerequisites . . .\nMicrosoft Dynamics 365 Business Central administration shell is already loaded.\n\nServer Instance BC220 found.\n\nGetting Service Information from BC220\n\n\nServerInstance : MicrosoftDynamicsNavServer$BC220\nDisplayName    : Dynamics 365 Business Central Server [BC220]\nState          : Running\nServiceAccount : NT AUTHORITY\\SYSTEM\nVersion        : 22.0.54512.0\nDefault        : True\n\n\nMicrosoft Dynamics 365 Business Central version: 22.0.54157.54635\n\nDownloading apps for corresponding service version 22.0.54157.54635 . . .\nInvoke download for app id fcfc9bac-8f9b-402f-9e64-30a8287bc78f\nUrl: https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&amp;version=22.0.54157.54635\n\nInvoke download for app id 6fb30c19-f5d6-4e4c-b006-18fba4de1898\nUrl: https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&amp;version=22.0.54157.54635\n\nApps to install:\n\t- C:\\Users\\Administrator\\AppData\\Local\\Temp\\tmp709B.tmp.app\n\t- C:\\Users\\Administrator\\AppData\\Local\\Temp\\tmp73A9.tmp.app\n\nRunning installation for app file C:\\Users\\Administrator\\AppData\\Local\\Temp\\tmp709B.tmp.app . . .\nPublishing Extension License Manager on Server Instance BC220\n\tVersion: 1.2.24.8827\nSync schema for Extension License Manager on Server Instance BC220\nInstall Extension License Manager on Server Instance BC220\nSuccessfully installed Extension License Manager on BC220.\n\nRunning installation for app file C:\\Users\\Administrator\\AppData\\Local\\Temp\\tmp73A9.tmp.app . . .\nPublishing 365 business Print Agent on Server Instance BC220\n\tVersion: 18.3.125.9182\nSync schema for 365 business Print Agent on Server Instance BC220\nInstall 365 business Print Agent on Server Instance BC220\nSuccessfully installed 365 business Print Agent on BC220.\n\n\nProcess finished."
