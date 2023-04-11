@@ -22,7 +22,6 @@ Verwenden Sie folgenden Befehl zur Installation der 365 business ERiC Erweiterun
 ```ps
 .\Install-Apps.ps1 -appIds @(
 	'0f94d4ef-5c3a-4002-93f2-2a2be05219c0', # 365 business API by 365 business development
-	'b0c41a2d-9ebe-4773-a22f-86bd69e75949', # ELSTER VAT Localization for Germany by Microsoft
 	'b03f5a4d-d257-4177-9881-7fba3c4cc5c5'  # 365 business ERiC by 365 business development
 )
 ```
