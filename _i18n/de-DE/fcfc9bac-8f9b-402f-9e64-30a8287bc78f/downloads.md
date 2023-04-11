@@ -4,18 +4,29 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 #### Anwendungsinformationen
  
-**Version:** 1.2.24.8827<br>**Zuletzt aktualisiert:** 09.04.2023
+**Version:** 1.2.24.8827<br>**Zuletzt aktualisiert:** 11.04.2023
  
 >**Hinweis**<br>Die aktuelle Dokumentation zu dieser Version finden Sie unter [https://docs.365businessdev.com/](https://docs.365businessdev.com/).
  
 
+
+#### Installation
+
+Verwenden Sie folgenden Befehl zur Installation der Extension License Manager Erweiterung für Microsoft Dynamics 365 Business Central, mit dem 365 business development App Installer:
+`ps
+.\Install-Apps.ps1 -appIds @(
+	'fcfc9bac-8f9b-402f-9e64-30a8287bc78f'  # Extension License Manager by 365 business development
+
+)
+`
+
+>**Mehr erfahren**<br>Besuchen Sie unsere [Installation Dokumentation](../install-how-to/) für weitere Informationen.
 
 #### Weitere Informationen
 
 In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen aufgeführt, die für Microsoft Dynamics 365 Business Central veröffentlicht wurden. Die entsprechende Funktionalität des eigentlichen Produkts oder der Erweiterung ist bei allen hier aufgeführten Versionen identisch.
 
 #### Plattform Versionen
-
 
 | Platform Version | Business Central Version | Download |
 | --- | --- | --- |
