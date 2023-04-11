@@ -12,7 +12,7 @@ The installation of apps and extensions in Microsoft Dynamics 365 Business Centr
 
 The `365 business development App Installer` is hosted on GitHub and can be downloaded from there:
 
-<span style="padding-left: 10px;"><a href="https://github.com/365businessdev/downloads/blob/0b3f7d9d7a9c2f4065acde43fec993c40e7224e0/assets/Install-Apps.ps1"><img src="/assets/fontawesome/download-solid.svg" width=50 height=50 alt="Download 365 business development App Installer" title="Download 365 business development App Installer" /> 365 business development App Installer</a></span>
+<span style="padding-left: 10px;"><a href="https://365businessdev.github.io/downloads/assets/Install-Apps.ps1" target="_blank"><img src="/assets/fontawesome/download-solid.svg" width=50 height=50 alt="Download 365 business development App Installer" title="Download 365 business development App Installer" /> 365 business development App Installer</a></span>
 
 ##### Process
 
