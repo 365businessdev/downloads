@@ -6,8 +6,6 @@ For Microsoft Dynamics 365 Business Central on-premise environments, so-called r
 
 The installation of apps and extensions in Microsoft Dynamics 365 Business Central on-premise environments takes place via Windows PowerShell. To simplify the installation and reduce the potential for errors, we provide a PowerShell script, the `365 business development App Installer`, which you can use to install our extensions for Microsoft Dynamics 365 Business Central.
 
->**Good to know**<br>You can find the exact PowerShell command you need to run in the respective product downloads.<br>This page describes the general installation.
-
 #### Download
 
 The `365 business development App Installer` is hosted on GitHub and can be downloaded from there:
@@ -32,6 +30,8 @@ The `365 business development App Installer` basically performs the following st
 The `365 business development App Installer` must be executed in a PowerShell session with elevated privileges (administrator). The execution must be done on the Microsoft Dynamics 365 Business Central Server, because the Microsoft Dynamics 365 Business Central PowerShell modules are required for the installation.
 
 ###### Command
+
+>**Good to know**<br>You can find the exact PowerShell command you need to run in the respective product downloads.<br>This page describes the general installation.
 
 ```ps
 

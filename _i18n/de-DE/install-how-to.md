@@ -6,8 +6,6 @@ Für Microsoft Dynamics 365 Business Central On-Premise Umgebungen werden sogena
 
 Die Installation von Erweiterungen in Microsoft Dynamics 365 Business Central On-Premise Umgebungen findet über die Windows PowerShell statt. Um die Installation zu vereinfachen und das Fehlerpotential zu verringern stellen wir ein PowerShell Script, den `365 business development App Installer`, zur Verfügung, welches Sie zur Installation unserer Erweiterungen für Microsoft Dynamics 365 Business Central verwenden können.
 
->**Gut zu wissen**<br>Sie finden bei den jeweiligen Produktdownloads den exakten PowerShell Befehl, den Sie ausführen müssen.<br>Auf dieser Seite wird die generelle Installation beschrieben.
-
 #### Download
 
 Der `365 business development App Installer` wird auf GitHub gehostet und kann von dort heruntergeladen werden:
@@ -32,6 +30,8 @@ Der `365 business development App Installer` führt grundsätzlich folgende Schr
 Der `365 business development App Installer` muss in einer PowerShell Sitzung mit erhöhten Rechten (Administrator) ausgeführt werden. Die Ausführung muss auf dem Microsoft Dynamics 365 Business Central Server erfolgen, da die Microsoft Dynamics 365 Business Central PowerShell Module für die Installation benötigt werden.
 
 ###### Befehl
+
+>**Gut zu wissen**<br>Sie finden bei den jeweiligen Produktdownloads den exakten PowerShell Befehl, den Sie ausführen müssen.<br>Auf dieser Seite wird die generelle Installation beschrieben.
 
 ```ps
 PS C:\Run> .\Install-Apps.ps1 -appIds @(
