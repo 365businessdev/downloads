@@ -12,7 +12,23 @@ The `365 business development App Installer` is hosted on GitHub and can be down
 
 <span style="padding-left: 10px;"><a href="https://365businessdev.github.io/downloads/assets/Install-Apps.ps1" target="_blank"><img src="/assets/fontawesome/download-solid.svg" width=16 height=16 alt="Download 365 business development App Installer" title="Download 365 business development App Installer" /> 365 business development App Installer</a></span>
 
-##### Process
+#### How to use?
+
+ 1. Download <a href="https://365businessdev.github.io/downloads/assets/Install-Apps.ps1" target="_blank"><img src="/assets/fontawesome/download-solid.svg" width=16 height=16 alt="Download 365 business development App Installer" title="Download 365 business development App Installer" /> 365 business development App Installer</a>.
+ 2. Run **Microsoft PowerShell** or **Microsoft Dynamics 365 Administration Shell** as Administrator.
+ 3. Navigate to the download location (e.g. `C:\Run`).
+ 4. Run `Install-Apps.ps1` PowerShell script, downloaded in step 1.
+	```ps1
+	PS C:\Run> .\Install-Apps.ps1 -appIds @(
+        "fcfc9bac-8f9b-402f-9e64-30a8287bc78f", # Extension License Manager
+        "6fb30c19-f5d6-4e4c-b006-18fba4de1898"  # 365 business Print Agent
+    )
+	```
+ 5. Select Microsoft Dynamics 365 Business Central service instance (_only if more than one instance is installed_).
+
+>**Good to know**<br>Based on your set up you may need to allow execution of `Install-Apps.ps1` PowerShell script.<br>Use `Set-ExecutionPolicy` CmdLet to allow execution. See [documentation](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy) for further information.
+
+##### Process flow
 
 The `365 business development App Installer` basically performs the following steps:
 
@@ -34,7 +50,6 @@ The `365 business development App Installer` must be executed in a PowerShell se
 >**Good to know**<br>You can find the exact PowerShell command you need to run in the respective product downloads.<br>This page describes the general installation.
 
 ```ps
-
 PS C:\Run> .\Install-Apps.ps1 -appIds @(
         "fcfc9bac-8f9b-402f-9e64-30a8287bc78f", # Extension License Manager
         "6fb30c19-f5d6-4e4c-b006-18fba4de1898"  # 365 business Print Agent
