@@ -4,7 +4,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 #### Application Information
  
-**Version:** 18.2.35.7062<br>**Updated:** 04/11/2023
+**Version:** 18.2.35.7062<br>**Updated:** 04/13/2023
  
 >**Note**<br>The current documentation for this version can be found at [https://docs.365businessdev.com/en-US/365-business-barcode/](https://docs.365businessdev.com/en-US/365-business-barcode/).
  
