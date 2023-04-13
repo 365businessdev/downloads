@@ -4,7 +4,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 #### Anwendungsinformationen
  
-**Version:** 17.6.32.5650<br>**Zuletzt aktualisiert:** 11.04.2023
+**Version:** 17.6.32.5650<br>**Zuletzt aktualisiert:** 13.04.2023
  
 >**Hinweis**<br>Die aktuelle Dokumentation zu dieser Version finden Sie unter [https://docs.365businessdev.com/de-DE/365-business-api/](https://docs.365businessdev.com/de-DE/365-business-api/).
  
@@ -15,7 +15,6 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 Verwenden Sie folgenden Befehl zur Installation der 365 business API Erweiterung für Microsoft Dynamics 365 Business Central, mit dem <a href="https://365businessdev.github.io/downloads/assets/Install-Apps.ps1" target="_blank" title="Download 365 business development App Installer">365 business development App Installer</a>:
 ```ps
 .\Install-Apps.ps1 -appIds @(
-	'', #  by 
 	'0f94d4ef-5c3a-4002-93f2-2a2be05219c0'  # 365 business API by 365 business development
 )
 ```
