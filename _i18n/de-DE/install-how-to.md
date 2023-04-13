@@ -12,7 +12,23 @@ Der `365 business development App Installer` wird auf GitHub gehostet und kann v
 
 <span style="padding-left: 10px;"><a href="https://365businessdev.github.io/downloads/assets/Install-Apps.ps1" target="_blank"><img src="/assets/fontawesome/download-solid.svg" width=16 height=16 alt="Download 365 business development App Installer" title="Download 365 business development App Installer" /> 365 business development App Installer</a></span>
 
-##### Ablauf
+#### Wie verwende ich den Installer?
+
+ 1. Download <a href="https://365businessdev.github.io/downloads/assets/Install-Apps.ps1" target="_blank"><img src="/assets/fontawesome/download-solid.svg" width=16 height=16 alt="Download 365 business development App Installer" title="Download 365 business development App Installer" /> 365 business development App Installer</a>.
+ 2. Starten Sie **Microsoft PowerShell** oder **Microsoft Dynamics 365 Administration Shell** als Administrator.
+ 3. Navigieren Sie zu dem Ort des Downloads (z.B. `C:\Run`).
+ 4. Führen Sie das `Install-Apps.ps1` PowerShell Skript aus.
+	```ps1
+	PS C:\Run> .\Install-Apps.ps1 -appIds @(
+        "fcfc9bac-8f9b-402f-9e64-30a8287bc78f", # Extension License Manager
+        "6fb30c19-f5d6-4e4c-b006-18fba4de1898"  # 365 business Print Agent
+    )
+	```
+ 5. Wählen Sie die Microsoft Dynamics 365 Business Central-Dienstinstanz aus (_nur wenn mehr als eine Instanz installiert ist_).
+
+>**Good to know**<br>Je nach Ihrer Einrichtung müssen Sie möglicherweise die Ausführung des PowerShell-Skripts `Install-Apps.ps1` zulassen.<br>Verwenden Sie `Set-ExecutionPolicy` CmdLet, um die Ausführung zu erlauben. Für weitere Informationen besuchen Sie die [Dokumentation](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy).
+
+##### Funktionsweise
 
 Der `365 business development App Installer` führt grundsätzlich folgende Schritte aus:
 
