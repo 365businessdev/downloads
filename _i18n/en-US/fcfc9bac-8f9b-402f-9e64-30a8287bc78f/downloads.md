@@ -4,7 +4,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 #### Application Information
  
-**Version:** 1.2.24.8827<br>**Updated:** 04/11/2023
+**Version:** 1.2.24.8827<br>**Updated:** 04/16/2023
  
 >**Note**<br>The current documentation for this version can be found at [https://docs.365businessdev.com/](https://docs.365businessdev.com/).
  
@@ -14,7 +14,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 Use the following command to install the Extension License Manager extension for Microsoft Dynamics 365 Business Central, using the <a href="https://365businessdev.github.io/downloads/assets/Install-Apps.ps1" target="_blank" title="Download 365 business development App Installer">365 business development App Installer</a>:
 ```ps
-PS C:\Install>.\Install-Apps.ps1 -appIds @(
+.\Install-Apps.ps1 -appIds @(
 	'fcfc9bac-8f9b-402f-9e64-30a8287bc78f'  # Extension License Manager by 365 business development
 )
 ```
