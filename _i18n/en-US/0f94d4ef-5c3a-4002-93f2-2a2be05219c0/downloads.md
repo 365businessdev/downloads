@@ -4,7 +4,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 #### Application Information
  
-**Version:** 17.6.32.5650<br>**Updated:** 06/11/2023
+**Version:** 17.6.32.5650<br>**Updated:** 06/18/2023
  
 >**Note**<br>The current documentation for this version can be found at [https://docs.365businessdev.com/en-US/365-business-api/](https://docs.365businessdev.com/en-US/365-business-api/).
  
@@ -115,6 +115,7 @@ The following table lists the various on-premise platform versions that have bee
 | `22.0.54157.54635` | Business Central 2023 Release Wave 1  | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=22.0.54157.54635) |
 | `22.0.54157.55195` | Business Central 2023 Release Wave 1  | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=22.0.54157.55195) |
 | `22.1.55890.56216` | Business Central 2023 Release Wave 1 Cumulative Update 1 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=22.1.55890.56216) |
+| `22.2.56969.57617` | Business Central 2023 Release Wave 1 Cumulative Update 2 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=22.2.56969.57617) |
 | _latest_ | Latest Version | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0) |
 
 
