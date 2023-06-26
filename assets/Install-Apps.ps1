@@ -1,19 +1,68 @@
 <#
+ MIT License
 
-THE SOFTWARE IS LICENSED "AS IS." YOU BEAR THE RISK OF USING IT. 365 BUSINESS DEVELOPMENT GIVES NO EXPRESS 
-WARRANTIES, GUARANTEES, OR CONDITIONS. TO THE EXTENT PERMITTED UNDER APPLICABLE LAWS, 365 BUSINESS DEVELOPMENT
-EXCLUDES ALL IMPLIED WARRANTIES, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+ Copyright (c) 2023 365 business development GmbH
 
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+ 
+ .Synopsis
+  Install list of Microsoft Dynamics 365 Business Central extensions/apps to local 
+  Microsoft Dynamics 365 Business Central Service.
+ .Parameter apps
+  List of 365 business development app ids or local app files to be installed.
+ .Example
+  Install-Apps.ps1 -apps @(
+    "fcfc9bac-8f9b-402f-9e64-30a8287bc78f", # Extension License Manager
+    "6fb30c19-f5d6-4e4c-b006-18fba4de1898"  # 365 business Print Agent
+  )
+ .Example
+  Install-Apps.ps1 -apps @(
+    "fcfc9bac-8f9b-402f-9e64-30a8287bc78f", # Extension License Manager
+    "6fb30c19-f5d6-4e4c-b006-18fba4de1898",  # 365 business Print Agent
+    "C:\install\365 business development_Print Agent Access Permission Web Service_1.2.0.0.app"
+  )
 #>
-
 Param(
     [Parameter(Mandatory=$true)]
-    $appIds
+    $apps
 )
 
 Clear-Host
 Write-Host "365 business development App Installer" -ForegroundColor Cyan
 Write-Host
+
+function Test-IsGuid
+{
+    [OutputType([bool])]
+    param
+    (
+        [Parameter(Mandatory = $true)]
+        [string]$stringGuid
+    )
+ 
+   $objectGuid = [System.Guid]::empty
+   try {
+        return [System.Guid]::TryParse($stringGuid,[System.Management.Automation.PSReference]$objectGuid) # Returns True if successfully parsed
+   } catch {
+        return $false
+   }
+}
 
 if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {
     throw "Insufficient permissions to run this script. Open the PowerShell console as an administrator and run this script again."
@@ -109,21 +158,29 @@ Write-Host
 Get-ChildItem -Path $([System.IO.Path]::GetTempPath()) -Filter "*.app" | Remove-Item
 
 $appFiles = @()
-Write-Host "Downloading apps for corresponding service version $($bcVersion) . . ." 
-$appIds | ForEach-Object {
-    $appId = $_
-    $downloadUrl = "https://365businessapi.com/api/SoftwareDownload?AppId=$($appId)&version=$($bcVersion)"
-    $appFile = "$([System.IO.Path]::GetTempFileName()).app"
+Write-Host "Collecting app files for installation . . ."
+$apps | ForEach-Object {
+    if ((Test-IsGuid -stringGuid $_) -eq $true) {
+        $appId = $_
 
-    Write-Host "Invoke download for app id $($appId)"
-    Write-Host "Url: $($downloadUrl)"
-    Write-Host
+        Write-Host "Downloading app id '$($appId)' for corresponding service version $($bcVersion) . . ." 
+        $downloadUrl = "https://365businessapi.com/api/SoftwareDownload?AppId=$($appId)&version=$($bcVersion)"
+        $appFile = "$([System.IO.Path]::GetTempFileName()).app"
 
-    try
-    {
-        Invoke-WebRequest -Uri $downloadUrl -OutFile $appFile
-    } catch {
-        throw "Failed to download app with id $($appId) for Microsoft Dynamics 365 Business Central service version $($bcVersion)!`r`nPlease contact your service provider for additional support.`r`n`r`nDetailed error message:`r`n$($_)"
+        Write-Host "Invoke download from: $($downloadUrl)"
+        Write-Host
+
+        try
+        {
+            Invoke-WebRequest -Uri $downloadUrl -OutFile $appFile
+        } catch {
+            throw "Failed to download app with id $($appId) for Microsoft Dynamics 365 Business Central service version $($bcVersion)!`r`nPlease contact your service provider for additional support.`r`n`r`nDetailed error message:`r`n$($_)"
+        }
+    } else {
+        $appFile = $_
+        if (-not (Test-Path $appFile)) {
+            throw "App file '$($appFile) could not be found.`r`nPlease verify file exists and try again."
+        }
     }
     $appFiles += @($appFile)
 }
@@ -144,7 +201,7 @@ $appFiles | ForEach-Object {
     }
     Write-Host "Running installation for app file $($appFile) . . ."
     try {
-        $appInformation = Publish-NavApp -ServerInstance $bcServiceInstanceName -Path $appFile -SkipVerification -PassThru
+        $appInformation = Publish-NavApp -ServerInstance $bcServiceInstanceName -Path $appFile -SkipVerification -PassThru -ErrorAction SilentlyContinue
         if ($appInformation) {
             Write-Host "Publishing " -NoNewline
             Write-Host $($appInformation.Name) -ForegroundColor Cyan -NoNewline
@@ -185,6 +242,8 @@ $appFiles | ForEach-Object {
 
             Write-Host "Successfully installed $($appInformation.Name) on $($bcServiceInstanceName)." -ForegroundColor Green
             Write-Host
+        } else {
+            Write-Host "$($appFile) has already been installed in the specified version. No action required."
         }
     } catch {
         Write-Warning $_
