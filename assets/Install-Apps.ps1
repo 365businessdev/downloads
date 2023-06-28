@@ -39,13 +39,29 @@
   )
 #>
 Param(
-    [Parameter(Mandatory=$true)]
-    $apps
+    [Parameter(Mandatory=$false)]
+    $apps,
+    [Parameter(Mandatory=$false)]
+    $appIds
 )
 
 Clear-Host
 Write-Host "365 business development App Installer" -ForegroundColor Cyan
 Write-Host
+
+if ((-not $apps) -and (-not $appIds)) {
+    throw "You must specify 'apps' parameter. Please specify whether application id, path to app-file or both to proceed."
+}
+if (($apps) -and ($appIds)) {
+    throw "You cannot specify both parameters 'apps' and 'appIds'. Please use 'apps' parameter to proceed."
+}
+
+if ((-not $apps) -and ($appIds)) {
+    Write-Warning "The paramter 'appIds' is obsoleted. Please use 'apps' parameter instead."
+    Write-Host "Transfering parameter values to 'apps' parameter."
+
+    $apps = $appIds
+}
 
 function Test-IsGuid
 {
