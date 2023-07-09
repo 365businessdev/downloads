@@ -4,7 +4,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 #### Application Information
  
-**Version:** 18.5.156.11208<br>**Updated:** 07/06/2023
+**Version:** 18.5.156.11208<br>**Updated:** 07/09/2023
  
 >**Note**<br>The current documentation for this version can be found at [https://docs.365businessdev.com/en-US/365-business-print-agent](https://docs.365businessdev.com/en-US/365-business-print-agent).
  
@@ -97,6 +97,7 @@ The following table lists the various on-premise platform versions that have bee
 | `21.6.54874.0` | Business Central 2022 Release Wave 2 Cumulative Update 6 | 18.5.156.11208 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=21.6.54874.0) |
 | `21.7.56019.0` | Business Central 2022 Release Wave 2 Cumulative Update 7 | 18.5.156.11208 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=21.7.56019.0) |
 | `21.8.56995.0` | Business Central 2022 Release Wave 2 Cumulative Update 8 | 18.5.156.11208 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=21.8.56995.0) |
+| `21.9.58412.0` | Business Central 2022 Release Wave 2 Cumulative Update 9 | 18.5.156.11208 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=21.9.58412.0) |
 | `22.0.54157.54635` | Business Central 2023 Release Wave 1  | 18.5.156.11208 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=22.0.54157.54635) |
 | `22.0.54157.55195` | Business Central 2023 Release Wave 1  | 18.5.156.11208 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=22.0.54157.55195) |
 | `22.1.55890.56216` | Business Central 2023 Release Wave 1 Cumulative Update 1 | 18.5.156.11208 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=22.1.55890.56216) |
