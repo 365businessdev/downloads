@@ -45,7 +45,6 @@ Param(
     $appIds
 )
 
-Clear-Host
 Write-Host "365 business development App Installer" -ForegroundColor Cyan
 Write-Host
 
@@ -218,45 +217,60 @@ $appFiles | ForEach-Object {
     Write-Host "Running installation for app file $($appFile) . . ."
     try {
         $appInformation = Publish-NavApp -ServerInstance $bcServiceInstanceName -Path $appFile -SkipVerification -PassThru -ErrorAction SilentlyContinue
-        if ($appInformation) {
-            Write-Host "Publishing " -NoNewline
+        if ($appInformation) {            
+            Write-Host "Getting app information for " -NoNewline
             Write-Host $($appInformation.Name) -ForegroundColor Cyan -NoNewline
-            Write-Host " on Server Instance " -NoNewline
+            Write-Host " from Server Instance " -NoNewline
             Write-Host $($bcServiceInstanceName) -ForegroundColor Cyan
-            Write-Host "`tVersion: $($appInformation.Version)"
+            $appInformation = Get-NavAppInfo -ServerInstance $bcServiceInstanceName -Name $appInformation.Name -Publisher $appInformation.Publisher -Version $appInformation.Version -Tenant "default" -TenantSpecificProperties
+            Write-Host "`tApp ID: $($appInformation.AppId)"
+
+            if ($appInformation.IsInstalled) {
+                Write-Host $($appInformation.Name) -ForegroundColor Cyan -NoNewline
+                Write-Host " with version " -NoNewline
+                Write-Host $($appInformation.Version) -ForegroundColor Cyan -NoNewline
+                Write-Host " is already installed on Server Instance " -NoNewline
+                Write-Host $($bcServiceInstanceName) -ForegroundColor Cyan
+            } else {
+                Write-Host "Publishing " -NoNewline
+                Write-Host $($appInformation.Name) -ForegroundColor Cyan -NoNewline
+                Write-Host " on Server Instance " -NoNewline
+                Write-Host $($bcServiceInstanceName) -ForegroundColor Cyan
+                Write-Host "`tVersion: $($appInformation.Version)"
             
-            Write-Host "Sync schema for " -NoNewline
-            Write-Host $($appInformation.Name) -ForegroundColor Cyan -NoNewline
-            Write-Host " on Server Instance " -NoNewline
-            Write-Host $($bcServiceInstanceName) -ForegroundColor Cyan
-            Sync-NavApp -ServerInstance $bcServiceInstanceName -Name $appInformation.Name -Publisher $appInformation.Publisher -Version $appInformation.Version
-
-            $publishedApps = Get-NAVAppInfo -ServerInstance $bcServiceInstanceName -Name $appInformation.Name -Publisher $appInformation.Publisher -Tenant "default" -TenantSpecificProperties | Where-Object { $_.Version -ne $appInformation.Version }
-            if (-not $publishedApps) {
-                Write-Host "Install " -NoNewline
+                Write-Host "Sync schema for " -NoNewline
                 Write-Host $($appInformation.Name) -ForegroundColor Cyan -NoNewline
                 Write-Host " on Server Instance " -NoNewline
                 Write-Host $($bcServiceInstanceName) -ForegroundColor Cyan
-                Install-NavApp -ServerInstance $bcServiceInstanceName -Name $appInformation.Name -Publisher $appInformation.Publisher -Version $appInformation.Version
-            } else {		
-                Write-Host "Perform Upgrade for " -NoNewline
-                Write-Host $($appInformation.Name) -ForegroundColor Cyan -NoNewline
-                Write-Host " on Server Instance " -NoNewline
-                Write-Host $($bcServiceInstanceName) -ForegroundColor Cyan
-                Start-NavAppDataUpgrade -ServerInstance $bcServiceInstanceName -Name $appInformation.Name -Publisher $appInformation.Publisher -Version $appInformation.Version
+                Sync-NavApp -ServerInstance $bcServiceInstanceName -Name $appInformation.Name -Publisher $appInformation.Publisher -Version $appInformation.Version
 
-                $publishedApps | ForEach-Object {
-                    Write-Host "Unpublish " -NoNewline
+                $publishedApps = Get-NAVAppInfo -ServerInstance $bcServiceInstanceName -AppId $appInformation.AppId -Publisher $appInformation.Publisher -Tenant "default" -TenantSpecificProperties | Where-Object { $_.Version -ne $appInformation.Version }
+                if (-not $publishedApps) {
+                    Write-Host "Install " -NoNewline
                     Write-Host $($appInformation.Name) -ForegroundColor Cyan -NoNewline
-                    Write-Host " with version " -NoNewline
-                    Write-Host $($publishedApps.Version) -ForegroundColor Cyan -NoNewline
-                    Write-Host " from Server Instance " -NoNewline
+                    Write-Host " on Server Instance " -NoNewline
                     Write-Host $($bcServiceInstanceName) -ForegroundColor Cyan
-                    Unpublish-NavApp -ServerInstance $bcServiceInstanceName -Name $appInformation.Name -Publisher $appInformation.Publisher -Version $publishedApps.Version
-                }
-            }
+                    Install-NavApp -ServerInstance $bcServiceInstanceName -AppId $appInformation.AppId -Publisher $appInformation.Publisher -Version $appInformation.Version
+                } else {		
+                    Write-Host "Perform Upgrade for " -NoNewline
+                    Write-Host $($appInformation.Name) -ForegroundColor Cyan -NoNewline
+                    Write-Host " on Server Instance " -NoNewline
+                    Write-Host $($bcServiceInstanceName) -ForegroundColor Cyan
+                    Start-NavAppDataUpgrade -ServerInstance $bcServiceInstanceName -AppId $appInformation.AppId -Publisher $appInformation.Publisher -Version $appInformation.Version
 
-            Write-Host "Successfully installed $($appInformation.Name) on $($bcServiceInstanceName)." -ForegroundColor Green
+                    $publishedApps | ForEach-Object {
+                        Write-Host "Unpublish " -NoNewline
+                        Write-Host $($appInformation.Name) -ForegroundColor Cyan -NoNewline
+                        Write-Host " with version " -NoNewline
+                        Write-Host $($publishedApps.Version) -ForegroundColor Cyan -NoNewline
+                        Write-Host " from Server Instance " -NoNewline
+                        Write-Host $($bcServiceInstanceName) -ForegroundColor Cyan
+                        Unpublish-NavApp -ServerInstance $bcServiceInstanceName -AppId $appInformation.AppId -Publisher $appInformation.Publisher -Version $publishedApps.Version
+                    }
+                }
+
+                Write-Host "Successfully installed $($appInformation.Name) on $($bcServiceInstanceName)." -ForegroundColor Green
+            }
             Write-Host
         } else {
             Write-Host "$($appFile) has already been installed in the specified version. No action required."
