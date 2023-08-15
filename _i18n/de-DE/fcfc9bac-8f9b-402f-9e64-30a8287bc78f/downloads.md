@@ -4,7 +4,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 #### Anwendungsinformationen
  
-**Version:** 2.0.77.11382<br>**Zuletzt aktualisiert:** 13.08.2023
+**Version:** 2.0.77.11382<br>**Zuletzt aktualisiert:** 15.08.2023
  
 >**Hinweis**<br>Die aktuelle Dokumentation zu dieser Version finden Sie unter [https://docs.365businessdev.com/](https://docs.365businessdev.com/).
  
@@ -47,6 +47,7 @@ In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen a
 | `18.0.23013.23795` | Business Central 2021 Release Wave 1  | 2.0.77.11382 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=18.0.23013.23795) |
 | `18.1.24822.26330` | Business Central 2021 Release Wave 1 Cumulative Update 1 | 2.0.77.11382 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=18.1.24822.26330) |
 | `18.2.26217.26490` | Business Central 2021 Release Wave 1 Cumulative Update 2 | 2.0.77.11382 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=18.2.26217.26490) |
+| `18.3.27240.27480` | Business Central 2021 Release Wave 1 Cumulative Update 3 | 2.0.77.11382 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=18.3.27240.27480) |
 | `18.4.28601.29139` | Business Central 2021 Release Wave 1 Cumulative Update 4 | 2.0.77.11382 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=18.4.28601.29139) |
 | `18.5.29545.0` | Business Central 2021 Release Wave 1 Cumulative Update 5 | 2.0.77.11382 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=18.5.29545.0) |
 | `18.6.30510.0` | Business Central 2021 Release Wave 1 Cumulative Update 6 | 2.0.77.11382 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=18.6.30510.0) |
