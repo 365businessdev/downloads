@@ -4,7 +4,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 #### Anwendungsinformationen
  
-**Version:** 17.7.41.11162<br>**Zuletzt aktualisiert:** 13.08.2023
+**Version:** 17.7.41.11162<br>**Zuletzt aktualisiert:** 20.08.2023
  
 >**Hinweis**<br>Die aktuelle Dokumentation zu dieser Version finden Sie unter [https://docs.365businessdev.com/de-DE/365-business-api/](https://docs.365businessdev.com/de-DE/365-business-api/).
  
@@ -50,6 +50,7 @@ In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen a
 | `18.0.23013.23795` | Business Central 2021 Release Wave 1  | 17.7.41.11162 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=18.0.23013.23795) |
 | `18.1.24822.26330` | Business Central 2021 Release Wave 1 Cumulative Update 1 | 17.7.41.11162 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=18.1.24822.26330) |
 | `18.2.26217.26490` | Business Central 2021 Release Wave 1 Cumulative Update 2 | 17.7.41.11162 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=18.2.26217.26490) |
+| `18.3.27240.27480` | Business Central 2021 Release Wave 1 Cumulative Update 3 | 17.7.41.11162 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=18.3.27240.27480) |
 | `18.4.28601.29139` | Business Central 2021 Release Wave 1 Cumulative Update 4 | 17.7.41.11162 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=18.4.28601.29139) |
 | `18.5.29545.0` | Business Central 2021 Release Wave 1 Cumulative Update 5 | 17.7.41.11162 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=18.5.29545.0) |
 | `18.6.30510.0` | Business Central 2021 Release Wave 1 Cumulative Update 6 | 17.7.41.11162 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=18.6.30510.0) |
