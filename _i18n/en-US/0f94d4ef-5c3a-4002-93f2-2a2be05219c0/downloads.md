@@ -4,7 +4,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 #### Application Information
  
-**Version:** 17.7.41.11162<br>**Updated:** 09/03/2023
+**Version:** 17.7.41.11162<br>**Updated:** 09/10/2023
  
 >**Note**<br>The current documentation for this version can be found at [https://docs.365businessdev.com/en-US/365-business-api/](https://docs.365businessdev.com/en-US/365-business-api/).
  
@@ -103,6 +103,7 @@ The following table lists the various on-premise platform versions that have bee
 | `20.14.56992.0` | Business Central 2022 Release Wave 1 Cumulative Update 14 | 17.7.41.11162 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=20.14.56992.0) |
 | `20.15.58429.0` | Business Central 2022 Release Wave 1 Cumulative Update 15 | 17.7.41.11162 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=20.15.58429.0) |
 | `20.16.59127.0` | Business Central 2022 Release Wave 1 Cumulative Update 16 | 17.7.41.11162 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=20.16.59127.0) |
+| `20.17.60127.0` | Business Central 2022 Release Wave 1 Cumulative Update 17 | 17.7.41.11162 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=20.17.60127.0) |
 | `21.0.46256.46853` | Business Central 2022 Release Wave 2  | 17.7.41.11162 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=21.0.46256.46853) |
 | `21.1.48363.48638` | Business Central 2022 Release Wave 2 Cumulative Update 1 | 17.7.41.11162 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=21.1.48363.48638) |
 | `21.2.49946.49990` | Business Central 2022 Release Wave 2 Cumulative Update 2 | 17.7.41.11162 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=21.2.49946.49990) |
