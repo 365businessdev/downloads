@@ -4,7 +4,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 #### Application Information
  
-**Version:** 18.9.111.12432<br>**Updated:** 12/03/2023
+**Version:** 18.9.111.12432<br>**Updated:** 12/10/2023
  
 >**Note**<br>The current documentation for this version can be found at [https://docs.365businessdev.com/en-US/365-business-address-validation/](https://docs.365businessdev.com/en-US/365-business-address-validation/).
  
@@ -110,6 +110,7 @@ The following table lists the various on-premise platform versions that have bee
 | `21.11.60137.0` | Business Central 2022 Release Wave 2 Cumulative Update 11 | 18.9.111.12432 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=e4664942-0212-41a2-aa2d-cf376adb84a6&version=21.11.60137.0) |
 | `21.12.60908.0` | Business Central 2022 Release Wave 2 Cumulative Update 12 | 18.9.111.12432 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=e4664942-0212-41a2-aa2d-cf376adb84a6&version=21.12.60908.0) |
 | `21.13.61695.0` | Business Central 2022 Release Wave 2 Cumulative Update 13 | 18.9.111.12432 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=e4664942-0212-41a2-aa2d-cf376adb84a6&version=21.13.61695.0) |
+| `21.14.62295.0` | Business Central 2022 Release Wave 2 Cumulative Update 14 | 18.9.111.12432 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=e4664942-0212-41a2-aa2d-cf376adb84a6&version=21.14.62295.0) |
 | `22.0.54157.54635` | Business Central 2023 Release Wave 1  | 18.9.111.12432 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=e4664942-0212-41a2-aa2d-cf376adb84a6&version=22.0.54157.54635) |
 | `22.0.54157.55195` | Business Central 2023 Release Wave 1  | 18.9.111.12432 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=e4664942-0212-41a2-aa2d-cf376adb84a6&version=22.0.54157.55195) |
 | `22.1.55890.56216` | Business Central 2023 Release Wave 1 Cumulative Update 1 | 18.9.111.12432 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=e4664942-0212-41a2-aa2d-cf376adb84a6&version=22.1.55890.56216) |
