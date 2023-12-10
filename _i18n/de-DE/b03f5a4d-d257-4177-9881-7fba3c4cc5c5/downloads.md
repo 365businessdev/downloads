@@ -4,7 +4,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 #### Anwendungsinformationen
  
-**Version:** 17.11.191.12662<br>**Zuletzt aktualisiert:** 04.12.2023
+**Version:** 17.11.191.12662<br>**Zuletzt aktualisiert:** 10.12.2023
  
 >**Hinweis**<br>Die aktuelle Dokumentation zu dieser Version finden Sie unter [https://docs.365businessdev.com/de-DE/365-business-eric/](https://docs.365businessdev.com/de-DE/365-business-eric/).
  
@@ -128,6 +128,7 @@ In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen a
 | `21.11.60137.0` | Business Central 2022 Release Wave 2 Cumulative Update 11 | 17.11.191.12662 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=21.11.60137.0) |
 | `21.12.60908.0` | Business Central 2022 Release Wave 2 Cumulative Update 12 | 17.11.191.12662 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=21.12.60908.0) |
 | `21.13.61695.0` | Business Central 2022 Release Wave 2 Cumulative Update 13 | 17.11.191.12662 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=21.13.61695.0) |
+| `21.14.62295.0` | Business Central 2022 Release Wave 2 Cumulative Update 14 | 17.11.191.12662 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=21.14.62295.0) |
 | `22.0.54157.54635` | Business Central 2023 Release Wave 1  | 17.11.191.12662 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=22.0.54157.54635) |
 | `22.0.54157.55195` | Business Central 2023 Release Wave 1  | 17.11.191.12662 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=22.0.54157.55195) |
 | `22.1.55890.56216` | Business Central 2023 Release Wave 1 Cumulative Update 1 | 17.11.191.12662 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=22.1.55890.56216) |
