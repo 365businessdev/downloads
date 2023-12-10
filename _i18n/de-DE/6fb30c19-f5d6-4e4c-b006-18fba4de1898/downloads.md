@@ -4,7 +4,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 #### Anwendungsinformationen
  
-**Version:** 18.6.174.12905<br>**Zuletzt aktualisiert:** 06.12.2023
+**Version:** 18.6.174.12905<br>**Zuletzt aktualisiert:** 10.12.2023
  
 >**Hinweis**<br>Die aktuelle Dokumentation zu dieser Version finden Sie unter [https://docs.365businessdev.com/de-DE/365-business-print-agent](https://docs.365businessdev.com/de-DE/365-business-print-agent).
  
@@ -107,6 +107,7 @@ In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen a
 | `21.11.60137.0` | Business Central 2022 Release Wave 2 Cumulative Update 11 | 18.6.174.12905 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=21.11.60137.0) |
 | `21.12.60908.0` | Business Central 2022 Release Wave 2 Cumulative Update 12 | 18.6.174.12905 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=21.12.60908.0) |
 | `21.13.61695.0` | Business Central 2022 Release Wave 2 Cumulative Update 13 | 18.6.174.12905 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=21.13.61695.0) |
+| `21.14.62295.0` | Business Central 2022 Release Wave 2 Cumulative Update 14 | 18.6.174.12905 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=21.14.62295.0) |
 | `22.0.54157.54635` | Business Central 2023 Release Wave 1  | 18.6.174.12905 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=22.0.54157.54635) |
 | `22.0.54157.55195` | Business Central 2023 Release Wave 1  | 18.6.174.12905 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=22.0.54157.55195) |
 | `22.1.55890.56216` | Business Central 2023 Release Wave 1 Cumulative Update 1 | 18.6.174.12905 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=22.1.55890.56216) |
