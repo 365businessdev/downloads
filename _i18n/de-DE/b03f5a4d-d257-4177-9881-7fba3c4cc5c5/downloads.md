@@ -4,7 +4,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 #### Anwendungsinformationen
  
-**Version:** 17.11.198.13143<br>**Zuletzt aktualisiert:** 19.12.2023
+**Version:** 17.11.198.13143<br>**Zuletzt aktualisiert:** 24.12.2023
  
 >**Hinweis**<br>Die aktuelle Dokumentation zu dieser Version finden Sie unter [https://docs.365businessdev.com/de-DE/365-business-eric/](https://docs.365businessdev.com/de-DE/365-business-eric/).
  
@@ -38,6 +38,24 @@ In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen a
 
 | Platform Version | Business Central Version | Version | Download |
 | --- | --- | --- | --- |
+| `17.0.16993.0` | Business Central 2020 Release Wave 2  | 17.11.198.13143 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.0.16993.0) |
+| `17.1.18256.18474` | Business Central 2020 Release Wave 2 Cumulative Update 1 | 17.11.198.13143 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.1.18256.18474) |
+| `17.1.18256.18792` | Business Central 2020 Release Wave 2 Cumulative Update 1 | 17.11.198.13143 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.1.18256.18792) |
+| `17.2.19367.19735` | Business Central 2020 Release Wave 2 Cumulative Update 2 | 17.11.198.13143 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.2.19367.19735) |
+| `17.3.20469.20605` | Business Central 2020 Release Wave 2 Cumulative Update 3 | 17.11.198.13143 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.3.20469.20605) |
+| `17.4.21491.21531` | Business Central 2020 Release Wave 2 Cumulative Update 4 | 17.11.198.13143 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.4.21491.21531) |
+| `17.5.22499.22546` | Business Central 2020 Release Wave 2 Cumulative Update 5 | 17.11.198.13143 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.5.22499.22546) |
+| `17.7.26453.0` | Business Central 2020 Release Wave 2 Cumulative Update 7 | 17.11.198.13143 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.7.26453.0) |
+| `17.8.27267.0` | Business Central 2020 Release Wave 2 Cumulative Update 8 | 17.11.198.13143 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.8.27267.0) |
+| `17.9.28504.0` | Business Central 2020 Release Wave 2 Cumulative Update 9 | 17.11.198.13143 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.9.28504.0) |
+| `17.10.29463.0` | Business Central 2020 Release Wave 2 Cumulative Update 10 | 17.11.198.13143 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.10.29463.0) |
+| `17.11.30469.0` | Business Central 2020 Release Wave 2 Cumulative Update 11 | 17.11.198.13143 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.11.30469.0) |
+| `17.12.31796.0` | Business Central 2020 Release Wave 2 Cumulative Update 12 | 17.11.198.13143 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.12.31796.0) |
+| `17.13.33033.0` | Business Central 2020 Release Wave 2 Cumulative Update 13 | 17.11.198.13143 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.13.33033.0) |
+| `17.15.35135.0` | Business Central 2020 Release Wave 2 Cumulative Update 15 | 17.11.198.13143 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.15.35135.0) |
+| `17.15.35463.0` | Business Central 2020 Release Wave 2 Cumulative Update 15 | 17.11.198.13143 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.15.35463.0) |
+| `17.16.36641.0` | Business Central 2020 Release Wave 2 Cumulative Update 16 | 17.11.198.13143 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.16.36641.0) |
+| `17.17.38111.0` | Business Central 2020 Release Wave 2 Cumulative Update 17 | 17.11.198.13143 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=17.17.38111.0) |
 | `18.0.23013.23795` | Business Central 2021 Release Wave 1  | 17.11.198.13143 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=18.0.23013.23795) |
 | `18.1.24822.26330` | Business Central 2021 Release Wave 1 Cumulative Update 1 | 17.11.198.13143 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=18.1.24822.26330) |
 | `18.2.26217.26490` | Business Central 2021 Release Wave 1 Cumulative Update 2 | 17.11.198.13143 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=18.2.26217.26490) |
