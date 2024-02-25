@@ -4,7 +4,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 #### Application Information
  
-**Version:** 18.8.201.13850<br>**Updated:** 02/24/2024
+**Version:** 18.8.201.13850<br>**Updated:** 02/25/2024
  
 >**Note**<br>The current documentation for this version can be found at [https://docs.365businessdev.com/en-US/365-business-print-agent](https://docs.365businessdev.com/en-US/365-business-print-agent).
  
@@ -111,6 +111,19 @@ The following table lists the various on-premise platform versions that have bee
 | `21.14.62295.0` | Business Central 2022 Release Wave 2 Cumulative Update 14 | 18.8.201.13850 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=21.14.62295.0) |
 | `21.15.62827.0` | Business Central 2022 Release Wave 2 Cumulative Update 15 | 18.8.201.13850 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=21.15.62827.0) |
 | `21.16.63199.0` | Business Central 2022 Release Wave 2 Cumulative Update 16 | 18.8.201.13850 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=21.16.63199.0) |
+| `22.0.54157.54635` | Business Central 2023 Release Wave 1  | 18.8.201.13850 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=22.0.54157.54635) |
+| `22.0.54157.55195` | Business Central 2023 Release Wave 1  | 18.8.201.13850 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=22.0.54157.55195) |
+| `22.1.55890.56216` | Business Central 2023 Release Wave 1 Cumulative Update 1 | 18.8.201.13850 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=22.1.55890.56216) |
+| `22.2.56969.57617` | Business Central 2023 Release Wave 1 Cumulative Update 2 | 18.8.201.13850 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=22.2.56969.57617) |
+| `22.3.58346.58453` | Business Central 2023 Release Wave 1 Cumulative Update 3 | 18.8.201.13850 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=22.3.58346.58453) |
+| `22.4.59114.59154` | Business Central 2023 Release Wave 1 Cumulative Update 4 | 18.8.201.13850 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=22.4.59114.59154) |
+| `22.4.59114.59535` | Business Central 2023 Release Wave 1 Cumulative Update 4 | 18.8.201.13850 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=22.4.59114.59535) |
+| `22.5.59966.60134` | Business Central 2023 Release Wave 1 Cumulative Update 5 | 18.8.201.13850 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=22.5.59966.60134) |
+| `22.6.60909.0` | Business Central 2023 Release Wave 1 Cumulative Update 6 | 18.8.201.13850 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=22.6.60909.0) |
+| `22.7.61690.0` | Business Central 2023 Release Wave 1 Cumulative Update 7 | 18.8.201.13850 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=22.7.61690.0) |
+| `22.8.62286.0` | Business Central 2023 Release Wave 1 Cumulative Update 8 | 18.8.201.13850 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=22.8.62286.0) |
+| `22.9.62830.0` | Business Central 2023 Release Wave 1 Cumulative Update 9 | 18.8.201.13850 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=22.9.62830.0) |
+| `22.10.63195.0` | Business Central 2023 Release Wave 1 Cumulative Update 10 | 18.8.201.13850 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=22.10.63195.0) |
 | `23.0.12034.12841` | Business Central 2023 Release Wave 2  | 18.8.201.13850 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=23.0.12034.12841) |
 | `23.1.13431.13812` | Business Central 2023 Release Wave 2 Cumulative Update 1 | 18.8.201.13850 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=23.1.13431.13812) |
 | `23.2.14098.14562` | Business Central 2023 Release Wave 2 Cumulative Update 2 | 18.8.201.13850 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=23.2.14098.14562) |
