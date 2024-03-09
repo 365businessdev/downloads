@@ -95,6 +95,7 @@ The following table lists the various on-premise platform versions that have bee
 | `23.2.14098.14562` | Business Central 2023 Release Wave 2 Cumulative Update 2 | 20.2.51.14062 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=23.2.14098.14562) |
 | `23.3.14876.15024` | Business Central 2023 Release Wave 2 Cumulative Update 3 | 20.2.51.14062 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=23.3.14876.15024) |
 | `23.4.15643.15715` | Business Central 2023 Release Wave 2 Cumulative Update 4 | 20.2.51.14062 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=23.4.15643.15715) |
+| `23.5.16502.16757` | Business Central 2023 Release Wave 2 Cumulative Update 5 | 20.2.51.14062 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=23.5.16502.16757) |
 | _latest_ | Latest Version | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856) |
 
 
