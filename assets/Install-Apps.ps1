@@ -161,7 +161,7 @@ $bcServiceInstance
 Write-Host
 
 Write-Host "Microsoft Dynamics 365 Business Central version: " -NoNewline
-$bcBaseApp = Get-NavAppInfo -ServerInstance $bcServiceInstanceName -Id "437dbf0e-84ff-417a-965d-ed2bb9650972"
+$bcBaseApp = Get-NavAppInfo -ServerInstance $bcServiceInstanceName -Id "437dbf0e-84ff-417a-965d-ed2bb9650972" -tenant default -TenantSpecificProperties | Where-Object { $_.IsInstalled -eq $true }
 if (-not $bcBaseApp) {
     Write-Host
     throw "The version of Microsoft Dynamics 365 Business Central cannot be determined! Please contact support for further assistance."
