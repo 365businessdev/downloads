@@ -4,7 +4,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 #### Anwendungsinformationen
  
-**Version:** 17.11.209.14527<br>**Zuletzt aktualisiert:** 30.06.2024
+**Version:** 17.11.209.14527<br>**Zuletzt aktualisiert:** 07.07.2024
  
 >**Hinweis**<br>Die aktuelle Dokumentation zu dieser Version finden Sie unter [https://docs.365businessdev.com/de-DE/365-business-eric/](https://docs.365businessdev.com/de-DE/365-business-eric/).
  
@@ -158,6 +158,7 @@ In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen a
 | `23.7.18957.0` | Business Central 2023 Release Wave 2 Cumulative Update 7 | 17.11.209.14527 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=23.7.18957.0) |
 | `23.7.19495.0` | Business Central 2023 Release Wave 2 Cumulative Update 7 | 17.11.209.14527 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=23.7.19495.0) |
 | `23.8.20231.0` | Business Central 2023 Release Wave 2 Cumulative Update 8 | 17.11.209.14527 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=23.8.20231.0) |
+| `23.9.21328.0` | Business Central 2023 Release Wave 2 Cumulative Update 9 | 17.11.209.14527 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=23.9.21328.0) |
 | `24.0.16410.18056` | Business Central 2025 Release Wave 1  | 17.11.209.14527 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=24.0.16410.18056) |
 | `24.1.18927.19498` | Business Central 2025 Release Wave 1 Cumulative Update 1 | 17.11.209.14527 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=24.1.18927.19498) |
 | `24.2.20227.20424` | Business Central 2025 Release Wave 1 Cumulative Update 2 | 17.11.209.14527 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=24.2.20227.20424) |
