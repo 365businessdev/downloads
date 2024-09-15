@@ -4,7 +4,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 #### Application Information
  
-**Version:** 18.2.64.16486<br>**Updated:** 09/10/2024
+**Version:** 18.2.64.16486<br>**Updated:** 09/15/2024
  
 >**Note**<br>The current documentation for this version can be found at [https://docs.365businessdev.com/en-US/365-business-barcode/](https://docs.365businessdev.com/en-US/365-business-barcode/).
  
@@ -155,6 +155,7 @@ The following table lists the various on-premise platform versions that have bee
 | `24.3.21374.21517` | Business Central 2024 Release Wave 1 Cumulative Update 3 | 18.2.64.16486 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=9aca19d9-d261-4fa0-88fd-121ad0daa0f7&version=24.3.21374.21517) |
 | `24.4.22295.22576` | Business Central 2024 Release Wave 1 Cumulative Update 4 | 18.2.64.16486 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=9aca19d9-d261-4fa0-88fd-121ad0daa0f7&version=24.4.22295.22576) |
 | `24.4.22295.22925` | Business Central 2024 Release Wave 1 Cumulative Update 4 | 18.2.64.16486 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=9aca19d9-d261-4fa0-88fd-121ad0daa0f7&version=24.4.22295.22925) |
+| `24.5.23489.23968` | Business Central 2024 Release Wave 1 Cumulative Update 5 | 18.2.64.16486 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=9aca19d9-d261-4fa0-88fd-121ad0daa0f7&version=24.5.23489.23968) |
 | _latest_ | Latest Version | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=9aca19d9-d261-4fa0-88fd-121ad0daa0f7) |
 
 
