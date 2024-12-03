@@ -37,12 +37,21 @@
     "6fb30c19-f5d6-4e4c-b006-18fba4de1898",  # 365 business Print Agent
     "C:\install\365 business development_Print Agent Access Permission Web Service_1.2.0.0.app"
   )
+ .Example
+  Install-Apps.ps1 -version "25.1.25873.25900" -apps @(
+    "fcfc9bac-8f9b-402f-9e64-30a8287bc78f", # Extension License Manager
+    "6fb30c19-f5d6-4e4c-b006-18fba4de1898",  # 365 business Print Agent
+    "C:\install\365 business development_Print Agent Access Permission Web Service_1.2.0.0.app"
+  )
+
 #>
 Param(
     [Parameter(Mandatory=$false)]
     $apps,
     [Parameter(Mandatory=$false)]
-    $appIds
+    $appIds,
+    [Parameter(Mandatory=$false)]
+    $version
 )
 
 Write-Host "365 business development App Installer" -ForegroundColor Cyan
@@ -164,10 +173,21 @@ Write-Host "Microsoft Dynamics 365 Business Central version: " -NoNewline
 $bcBaseApp = Get-NavAppInfo -ServerInstance $bcServiceInstanceName -Id "437dbf0e-84ff-417a-965d-ed2bb9650972" -tenant default -TenantSpecificProperties | Where-Object { $_.IsInstalled -eq $true }
 if (-not $bcBaseApp) {
     Write-Host
-    throw "The version of Microsoft Dynamics 365 Business Central cannot be determined! Please contact support for further assistance."
+    if ($version) {
+        Write-Warning "Microsoft Dynamics 365 Business Central version cannot be determined, but version has been passed from external."
+        $bcVersion = $version
+    } else {
+        throw "The version of Microsoft Dynamics 365 Business Central cannot be determined! Please contact support for further assistance."
+    }
+} else {
+    $bcVersion = $bcBaseApp.version
+    Write-Host $bcVersion -ForegroundColor Cyan
+    if (($version) -and ($version -ne $bcVersion)) {
+        Write-Warning "Version '$($version)' has been passed from external and does not match the match the actual version installed. Runtime packages are precompiled application packages and we cannot guarantee that these packages will work correctly on other versions."
+        $bcVersion = $version
+    }
 }
-$bcVersion = $bcBaseApp.version
-Write-Host $bcVersion -ForegroundColor Cyan
+
 Write-Host
 
 Get-ChildItem -Path $([System.IO.Path]::GetTempPath()) -Filter "*.app" | Remove-Item
