@@ -174,7 +174,7 @@ $bcBaseApp = Get-NavAppInfo -ServerInstance $bcServiceInstanceName -Id "437dbf0e
 if (-not $bcBaseApp) {
     Write-Host
     if ($version) {
-        Write-Warning "Microsoft Dynamics 365 Business Central version cannot be determined, but version has been passed from external."
+        Write-Host "WARNING: Microsoft Dynamics 365 Business Central version cannot be determined, but version has been passed from external."
         $bcVersion = $version
     } else {
         throw "The version of Microsoft Dynamics 365 Business Central cannot be determined! Please contact support for further assistance."
@@ -183,7 +183,7 @@ if (-not $bcBaseApp) {
     $bcVersion = $bcBaseApp.version
     Write-Host $bcVersion -ForegroundColor Cyan
     if (($version) -and ($version -ne $bcVersion)) {
-        Write-Warning "Version '$($version)' has been passed from external and does not match the match the actual version installed. Runtime packages are precompiled application packages and we cannot guarantee that these packages will work correctly on other versions."
+        Write-Host "WARNING: Version '$($version)' has been passed from external and does not match the match the actual version installed. Runtime packages are precompiled application packages and we cannot guarantee that these packages will work correctly on other versions."
         $bcVersion = $version
     }
 }
