@@ -4,7 +4,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 #### Anwendungsinformationen
  
-**Version:** 17.12.249.17623<br>**Zuletzt aktualisiert:** 10.12.2024
+**Version:** 17.12.249.17623<br>**Zuletzt aktualisiert:** 19.01.2025
  
 >**Hinweis**<br>Die aktuelle Dokumentation zu dieser Version finden Sie unter [https://docs.365businessdev.com/de-DE/365-business-eric/](https://docs.365businessdev.com/de-DE/365-business-eric/).
  
@@ -171,6 +171,7 @@ In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen a
 | `23.12.24784.0` | Business Central 2023 Release Wave 2 Cumulative Update 12 | 17.12.249.17623 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=23.12.24784.0) |
 | `23.12.25452.0` | Business Central 2023 Release Wave 2 Cumulative Update 12 | 17.12.249.17623 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=23.12.25452.0) |
 | `23.13.25917.0` | Business Central 2023 Release Wave 2 Cumulative Update 13 | 17.12.249.17623 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=23.13.25917.0) |
+| `23.14.27722.0` | Business Central 2023 Release Wave 2 Cumulative Update 14 | 17.12.249.17623 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=23.14.27722.0) |
 | `24.0.16410.18056` | Business Central 2024 Release Wave 1  | 17.12.249.17623 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=24.0.16410.18056) |
 | `24.1.18927.19498` | Business Central 2024 Release Wave 1 Cumulative Update 1 | 17.12.249.17623 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=24.1.18927.19498) |
 | `24.2.20227.20424` | Business Central 2024 Release Wave 1 Cumulative Update 2 | 17.12.249.17623 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=24.2.20227.20424) |
@@ -181,9 +182,11 @@ In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen a
 | `24.6.24785.0` | Business Central 2024 Release Wave 1 Cumulative Update 6 | 17.12.249.17623 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=24.6.24785.0) |
 | `24.6.25479.0` | Business Central 2024 Release Wave 1 Cumulative Update 6 | 17.12.249.17623 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=24.6.25479.0) |
 | `24.7.25890.0` | Business Central 2024 Release Wave 1 Cumulative Update 7 | 17.12.249.17623 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=24.7.25890.0) |
+| `24.8.27723.0` | Business Central 2024 Release Wave 1 Cumulative Update 8 | 17.12.249.17623 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=24.8.27723.0) |
 | `25.0.23364.24652` | Business Central 2024 Release Wave 2  | 17.12.249.17623 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=25.0.23364.24652) |
 | `25.0.23364.25445` | Business Central 2024 Release Wave 2  | 17.12.249.17623 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=25.0.23364.25445) |
 | `25.1.25873.25900` | Business Central 2024 Release Wave 2 Cumulative Update 1 | 17.12.249.17623 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=25.1.25873.25900) |
+| `25.2.27733.27999` | Business Central 2024 Release Wave 2 Cumulative Update 2 | 17.12.249.17623 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=25.2.27733.27999) |
 | _latest_ | Latest Version | 17.12.249.17623 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5) |
 
 
