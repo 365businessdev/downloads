@@ -4,7 +4,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 #### Application Information
  
-**Version:** 18.11.228.18870<br>**Updated:** 03/15/2025
+**Version:** 18.11.228.18870<br>**Updated:** 03/16/2025
  
 >**Note**<br>The current documentation for this version can be found at [https://docs.365businessdev.com/en-US/365-business-print-agent](https://docs.365businessdev.com/en-US/365-business-print-agent).
  
@@ -175,6 +175,7 @@ The following table lists the various on-premise platform versions that have bee
 | `25.2.27733.27999` | Business Central 2024 Release Wave 2 Cumulative Update 2 | 18.11.228.18870 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=25.2.27733.27999) |
 | `25.3.28755.29378` | Business Central 2024 Release Wave 2 Cumulative Update 3 | 18.11.228.18870 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=25.3.28755.29378) |
 | `25.4.29661.29727` | Business Central 2024 Release Wave 2 Cumulative Update 4 | 18.11.228.18870 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=25.4.29661.29727) |
+| `25.5.30849.31109` | Business Central 2024 Release Wave 2 Cumulative Update 5 | 18.11.228.18870 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=25.5.30849.31109) |
 | _latest_ | Latest Version | 18.11.228.18870 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898) |
 
 
