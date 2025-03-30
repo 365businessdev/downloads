@@ -4,7 +4,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 #### Anwendungsinformationen
  
-**Version:** 18.10.130.14542<br>**Zuletzt aktualisiert:** 23.03.2025
+**Version:** 18.10.130.14542<br>**Zuletzt aktualisiert:** 30.03.2025
  
 >**Hinweis**<br>Die aktuelle Dokumentation zu dieser Version finden Sie unter [https://docs.365businessdev.com/de-DE/365-business-address-validation/](https://docs.365businessdev.com/de-DE/365-business-address-validation/).
  
