@@ -4,7 +4,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 #### Anwendungsinformationen
  
-**Version:** 18.1.31.16587<br>**Zuletzt aktualisiert:** 16.03.2025
+**Version:** 18.1.31.16587<br>**Zuletzt aktualisiert:** 30.03.2025
  
 >**Hinweis**<br>Die aktuelle Dokumentation zu dieser Version finden Sie unter [https://docs.365businessdev.com/de-DE/365-business-proxy-application](https://docs.365businessdev.com/de-DE/365-business-proxy-application).
  
