@@ -2,12 +2,13 @@
 
 Welcome to the download section of 365 business development.
 
-On this page, you will find downloads where we provide so-called Runtime Packages for Microsoft Dynamics 365 Business Central On-Premise environments. These are pre-configured packages that you can use in your Microsoft Dynamics 365 Business Central On-Premise installation. It is important to use the correct version for your platform version of Microsoft Dynamics 365 Business Central.
+On this page, you will find so-called runtime packages for Microsoft Dynamics 365 Business Central On-Premise environments. These are pre-compiled Microsoft Dynamics 365 Business Centrall app packages that you can use in your Microsoft Dynamics 365 Business Central On-Premise environment.
+It is important to select the correct platform version for your version of Microsoft Dynamics 365 Business Central.
 
-The Runtime Packages are generally intended for use with Microsoft Dynamics 365 Business Central On-Premise versions. If you are using a cloud environment, you should obtain the corresponding packages via the Microsoft AppSource marketplace.
+The runtime packages are generally intended for use with Microsoft Dynamics 365 Business Central On-Premise environments. If you are using a cloud environment, you should obtain the corresponding packages via the Microsoft AppSource marketplace.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong> If you are unsure how to proceed or have questions about the Runtime Packages, please contact our support. We are happy to assist you.<br>
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong> If you are unsure how to proceed or have questions about the runtime packages, please contact our support. We are happy to assist you.<br>
     <br>
     For more information, please refer to our <a href="https://docs.365businessdev.com/de-de/installation/introduction.html" target="_blank">installation documentation</a>.
 </div>

@@ -2,9 +2,10 @@
 
 Herzlichen Willkommen im Download Bereich der 365 business development.
 
-Auf dieser Seite finden Sie Downloads stellen wir sogenannte Runtime Packages für Microsoft Dynamics 365 Business Central On-Premise Umgebungen zur Verfügung. Hierbei handelt es sich um vorgefertigte Pakete, die Sie in Ihrer Microsoft Dynamics 365 Business Central On-Premise Installation verwenden können. Es ist wichtig, die richtige Version für Ihre Plattformversion von Microsoft Dynamics 365 Business Central zu verwenden.
+Auf dieser Seite finden stellen wir sogenannte Runtime Packages für Microsoft Dynamics 365 Business Central On-Premise Umgebungen zur Verfügung. Hierbei handelt es sich um vorkompilierte Microsoft Dynamics 365 Business Central App Pakete, die Sie in Ihrer Microsoft Dynamics 365 Business Central On-Premise Umgebung verwenden können. 
+Bitte beachten Sie, dass es wichtig ist, die richtige PlattformVersion für Ihre Version von Microsoft Dynamics 365 Business Central zu verwenden.
 
-Die Runtime Packages sind in der Regel für die Verwendung mit Microsoft Dynamics 365 Business Central On-Premise Versionen gedacht. Wenn Sie eine Cloud-Umgebung verwenden, sollten Sie die entsprechenden Pakete über den Microsoft AppSource Marktplatz beziehen.
+Die Runtime Packages sind in der Regel für die Verwendung mit Microsoft Dynamics 365 Business Central On-Premise Versionen gedacht. Wenn Sie eine Dynamics 365 Business Central Online-Umgebung (SaaS) verwenden, sollten Sie die entsprechenden Pakete über den Microsoft AppSource Marktplatz beziehen.
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong> Wenn Sie nicht sicher sind, wie Sie vorgehen sollen, oder wenn Sie Fragen zu den Runtime Packages haben, wenden Sie sich bitte an unseren Support. Wir helfen Ihnen gerne weiter.<br>
