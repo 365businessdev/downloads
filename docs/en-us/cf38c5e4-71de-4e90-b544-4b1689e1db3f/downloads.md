@@ -1,16 +1,18 @@
-﻿# 365 business E-Invoice 
+﻿# 365 business E-Invoice - Runtime Packages
 
 This article publishes the various runtime packages for the 365 business E-Invoice extension, for Microsoft Dynamics 365 Business Central.
 
 A runtime package is a precompiled application package that you can use in your Microsoft Dynamics 365 Business Central on-premise installation. It is important to use the correct version for your platform version of Microsoft Dynamics 365 Business Central.
 
-# Application Information
- 
-**Version:** 25.1.340.19114<br>**Updated:** 04/05/2025
- 
->**Note**<br>The current documentation for this version can be found at [https://docs.365businessdev.com/en-US/365-business-E-Invoice/](https://docs.365businessdev.com/en-US/365-business-E-Invoice/).
- 
-## Dependencies 
+## Application Information
+**Version:** 25.1.340.19114
+**Updated:** 04/08/2025
+
+<div class="alert alert-info">
+    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis</strong> The current documentation for this version can be found at <a href="https://docs.365businessdev.com/en-us/365-business-E-Invoice/" target="_blank">https://docs.365businessdev.com/en-us/365-business-E-Invoice/</a>
+</div>
+
+### Dependencies 
  
 | Name | Version |
 | --- | --- | 
@@ -20,7 +22,7 @@ A runtime package is a precompiled application package that you can use in your 
 | 365 business development Extension License | 2.0.0.0 or later | 
 
 
-# Installation
+## Installation
 
 Use the following command to install the 365 business E-Invoice extension for Microsoft Dynamics 365 Business Central, using the <a href="https://365businessdev.github.io/downloads/assets/Install-Apps.ps1" target="_blank" title="Download 365 business development App Installer">365 business development App Installer</a>:
 ```ps
@@ -31,13 +33,18 @@ Use the following command to install the 365 business E-Invoice extension for Mi
 )
 ```
 
-# Additional Information
-
-The following table lists the various on-premise platform versions that have been released for Microsoft Dynamics 365 Business Central. The corresponding functionality of the actual product or extension is identical for all versions listed here.
+<div class="alert alert-notice">
+    <i class="fa-light fa-hand-point-up fa-lg fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Learn more</strong>Visit our <a href="https://docs.365businessdev.com/en-us/installation/" target="_blank">installation documentation</a> for more information.
+</div>
 
 # Platform Versions
 
+The following table lists the various on-premise platform versions that have been released for Microsoft Dynamics 365 Business Central. The corresponding functionality of the actual product or extension is identical for all versions listed here.
 
+
+
+ ## Business Central 2024 Release Wave 2 (BC 25)
+ 
 | Platform Version | Business Central Version | Version | Download |
 | --- | --- | --- | --- |
 | `25.0.23364.24652` | Business Central 2024 Release Wave 2  | 25.1.306.18251 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=25.0.23364.24652) |
@@ -47,9 +54,8 @@ The following table lists the various on-premise platform versions that have bee
 | `25.3.28755.29378` | Business Central 2024 Release Wave 2 Cumulative Update 3 | 25.1.340.19114 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=25.3.28755.29378) |
 | `25.4.29661.29727` | Business Central 2024 Release Wave 2 Cumulative Update 4 | 25.1.340.19114 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=25.4.29661.29727) |
 | `25.5.30849.31109` | Business Central 2024 Release Wave 2 Cumulative Update 5 | 25.1.340.19114 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=25.5.30849.31109) |
-| _latest_ | Latest Version | 25.1.340.19114 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f) |
+| `25.6.32556.0` | Business Central 2024 Release Wave 2 Cumulative Update 6 | 25.1.340.19114 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=25.6.32556.0) |
 
 
-
-### See also
- - [Microsoft Docs - Runtime Packages Limitation (en-US)](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-creating-runtime-packages#limitations)
+# See also
+ - [Microsoft Learn - Runtime Packages Limitation (en-US)](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-creating-runtime-packages#limitations)
