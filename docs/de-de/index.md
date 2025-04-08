@@ -22,7 +22,7 @@ Den **365 business development App Installer** stellen wir auf unserer GitHub Se
 
 <span style="padding-left: 10px;"><a href="https://365businessdev.github.io/downloads/assets/Install-Apps.ps1" target="_blank">365 business development App Installer</a></span>
 
-### Siehe auch
+# Siehe auch
 
  - [Dokumentation - Installation](https://docs.365businessdev.com/de-de/installation/introduction.html)
- - [Microsoft Learn - Runtime Packages Limitation (en-US)](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-creating-runtime-packages)
+ - [Microsoft Learn - Runtime Packages (en-US)](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-creating-runtime-packages)
