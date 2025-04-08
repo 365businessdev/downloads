@@ -1,0 +1,42 @@
+- name: Willkommen
+  href: index.md
+
+- name: 365 business API
+  href: 0f94d4ef-5c3a-4002-93f2-2a2be05219c0/downloads.md
+
+- name: 365 business Sanction Screen
+  href: 41560e3b-51bf-4a0e-85a6-87280c6fe580/downloads.md
+
+- name: 365 business development - Suchen & Ersetzen
+  href: 43382cd0-11d4-401a-a3c7-d22f954ca99b/downloads.md
+
+- name: 365 business PDF
+  href: 66745141-90b6-4fb0-906a-94400600f856/downloads.md
+
+- name: 365 business Print Agent
+  href: 6fb30c19-f5d6-4e4c-b006-18fba4de1898/downloads.md
+
+- name: 365 business Barcode
+  href: 9aca19d9-d261-4fa0-88fd-121ad0daa0f7/downloads.md 
+  
+- name: 365 business Proxy Application
+  href: ae907ccb-e4a3-4594-9955-bd931031af8f/downloads.md
+
+- name: 365 business ERiC
+  href: b03f5a4d-d257-4177-9881-7fba3c4cc5c5/downloads.md
+
+- name: 365 business E-Invoice
+  href: cf38c5e4-71de-4e90-b544-4b1689e1db3f/downloads.md
+
+- name: 365 business Address Validation
+  href: e4664942-0212-41a2-aa2d-cf376adb84a6/downloads.md  
+
+- name: 365 business AL Extension Manager
+  href: fcfc9bac-8f9b-402f-9e64-30a8287bc78f/downloads.md  
+
+- name: Wie wird es installiert?
+  href: install-how-to.md
+          
+- name: Dokumentation
+  href: https://docs.365businessdev.com
+
