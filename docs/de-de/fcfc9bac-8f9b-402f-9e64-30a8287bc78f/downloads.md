@@ -6,7 +6,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 ## Anwendungsinformationen
 **Version:** 2.1.137.18463
-**Zuletzt aktualisiert:** 08.04.2025
+**Zuletzt aktualisiert:** 13.04.2025
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis</strong> Die aktuelle Dokumentation zu dieser Version finden Sie unter <a href="https://docs.365businessdev.com/" target="_blank">https://docs.365businessdev.com/</a>
@@ -24,7 +24,7 @@ Verwenden Sie folgenden Befehl zur Installation der 365 business development Ext
 ```
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Mehr erfahren</strong>Besuchen Sie unsere <a href="https://docs.365businessdev.com/de-de/installation/introduction.html" target="_blank">Installationsdokumentation</a> für weitere Informationen.
+    <i class="fa-light fa-hand-point-up fa-lg fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Mehr erfahren</strong>Besuchen Sie unsere <a href="https://docs.365businessdev.com/de-de/installation/" target="_blank">Installationsdokumentation</a> für weitere Informationen.
 </div>
 
 # Plattform Versionen

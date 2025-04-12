@@ -6,7 +6,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 ## Application Information
 **Version:** 2.1.137.18463
-**Updated:** 04/08/2025
+**Updated:** 04/13/2025
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis</strong> The current documentation for this version can be found at <a href="https://docs.365businessdev.com/" target="_blank">https://docs.365businessdev.com/</a>
@@ -24,7 +24,7 @@ Use the following command to install the 365 business development Extension Lice
 ```
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Learn more</strong>Visit our <a href="https://docs.365businessdev.com/en-us/installation/introduction.html" target="_blank">installation documentation</a> for more information.
+    <i class="fa-light fa-hand-point-up fa-lg fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Learn more</strong>Visit our <a href="https://docs.365businessdev.com/en-us/installation/" target="_blank">installation documentation</a> for more information.
 </div>
 
 # Platform Versions
