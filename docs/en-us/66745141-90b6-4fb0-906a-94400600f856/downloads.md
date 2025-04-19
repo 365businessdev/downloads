@@ -5,8 +5,8 @@ This article publishes the various runtime packages for the 365 business PDF ext
 A runtime package is a precompiled application package that you can use in your Microsoft Dynamics 365 Business Central on-premise installation. It is important to use the correct version for your platform version of Microsoft Dynamics 365 Business Central.
 
 ## Application Information
-**Version:** 20.5.72.18919
-**Updated:** 04/13/2025
+**Version:** 20.5.72.18919<br>
+**Updated:** 04/20/2025
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis</strong> The current documentation for this version can be found at <a href="https://docs.365businessdev.com/en-us/365-business-pdf/" target="_blank">https://docs.365businessdev.com/en-us/365-business-pdf/</a>
