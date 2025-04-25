@@ -5,8 +5,8 @@ In diesem Artikel werden die verschiedenen Runtime Packages für die 365 busines
 Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer Microsoft Dynamics 365 Business Central On-Premise Installation verwenden können. Hierbei ist es wichtig die korrekte Version, für die bei Ihnen eingesetzte Plattform Version von Microsoft Dynamics 365 Business Central, zu verwenden.
 
 ## Anwendungsinformationen
-**Version:** 17.9.57.16385
-**Zuletzt aktualisiert:** 08.04.2025
+**Version:** 17.9.57.16385<br>
+**Zuletzt aktualisiert:** 20.04.2025
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis</strong> Die aktuelle Dokumentation zu dieser Version finden Sie unter <a href="https://docs.365businessdev.com/de-de/365-business-api/" target="_blank">https://docs.365businessdev.com/de-de/365-business-api/</a>
@@ -24,7 +24,7 @@ Verwenden Sie folgenden Befehl zur Installation der 365 business API Erweiterung
 ```
 
 <div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Mehr erfahren</strong>Besuchen Sie unsere <a href="https://docs.365businessdev.com/de-de/installation/introduction.html" target="_blank">Installationsdokumentation</a> für weitere Informationen.
+    <i class="fa-light fa-hand-point-up fa-lg fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Mehr erfahren</strong>Besuchen Sie unsere <a href="https://docs.365businessdev.com/de-de/installation/" target="_blank">Installationsdokumentation</a> für weitere Informationen.
 </div>
 
 # Plattform Versionen
