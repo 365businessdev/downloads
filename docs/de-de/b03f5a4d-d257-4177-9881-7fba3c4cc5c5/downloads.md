@@ -6,7 +6,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 ## Anwendungsinformationen
 **Version:** 17.13.262.19279<br>
-**Zuletzt aktualisiert:** 20.04.2025
+**Zuletzt aktualisiert:** 27.04.2025
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis</strong> Die aktuelle Dokumentation zu dieser Version finden Sie unter <a href="https://docs.365businessdev.com/de-DE/365-business-eric/" target="_blank">https://docs.365businessdev.com/de-DE/365-business-eric/</a>
@@ -252,6 +252,7 @@ In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen a
 | Platform Version | Business Central Version | Version | Download |
 | --- | --- | --- | --- |
 | `26.0.30643.32481` | Business Central 2025 Release Wave 1  | 17.13.262.19279 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=26.0.30643.32481) |
+| `26.0.30643.33317` | Business Central 2025 Release Wave 1  | 17.13.262.19279 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=26.0.30643.33317) |
 
 
 # Siehe auch
