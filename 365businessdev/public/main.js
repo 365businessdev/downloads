@@ -24,11 +24,21 @@ export default {
   start() {
     //console.log("🚀 main.js gestartet");
 
-    // Matomo Tag Manager dynamisch laden
-    //const matomoScript = document.createElement("script");
-    //matomoScript.async = true;
-    //matomoScript.src = "https://cdn.matomo.cloud/businessdev.matomo.cloud/container_v7xJrAFg.js";
-    //document.head.appendChild(matomoScript);
+    //<!-- Matomo -->
+	var _paq = window._paq = window._paq || [];
+	/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+	_paq.push(["setDomains", ["*.www.365businessdev.com","*.docs.365businessdev.com","*.downloads.365businessdev.com"]]);
+	_paq.push(["enableCrossDomainLinking"]);
+	_paq.push(['trackPageView']);
+	_paq.push(['enableLinkTracking']);
+	(function() {
+		var u="https://businessdev.matomo.cloud/";
+		_paq.push(['setTrackerUrl', u+'matomo.php']);
+		_paq.push(['setSiteId', '1']);
+		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		g.async=true; g.src='https:///businessdev.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+	})();
+	//<!-- End Matomo Code -->
     //console.log("📊 Matomo Tag Manager geladen!");
 	
 	setTimeout(() => {
