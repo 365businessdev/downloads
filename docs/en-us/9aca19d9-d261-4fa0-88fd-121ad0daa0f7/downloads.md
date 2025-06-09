@@ -6,7 +6,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 ## Application Information
 **Version:** 18.2.64.16486<br>
-**Updated:** 06/08/2025
+**Updated:** 06/09/2025
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis</strong> The current documentation for this version can be found at <a href="https://docs.365businessdev.com/en-us/365-business-barcode/" target="_blank">https://docs.365businessdev.com/en-us/365-business-barcode/</a>
@@ -211,6 +211,7 @@ The following table lists the various on-premise platform versions that have bee
 | `24.11.30823.0` | Business Central 2024 Release Wave 1 Cumulative Update 11 | 18.2.64.16486 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=9aca19d9-d261-4fa0-88fd-121ad0daa0f7&version=24.11.30823.0) |
 | `24.12.32447.0` | Business Central 2024 Release Wave 1 Cumulative Update 12 | 18.2.64.16486 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=9aca19d9-d261-4fa0-88fd-121ad0daa0f7&version=24.12.32447.0) |
 | `24.13.33364.0` | Business Central 2024 Release Wave 1 Cumulative Update 13 | 18.2.64.16486 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=9aca19d9-d261-4fa0-88fd-121ad0daa0f7&version=24.13.33364.0) |
+| `24.14.34725.0` | Business Central 2024 Release Wave 1 Cumulative Update 14 | 18.2.64.16486 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=9aca19d9-d261-4fa0-88fd-121ad0daa0f7&version=24.14.34725.0) |
 
  ## Business Central 2024 Release Wave 2 (BC 25)
  
