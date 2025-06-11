@@ -206,19 +206,21 @@ if (-not $bcBaseApp) {
     }
 }
 
-Write-Host "Verifying Microsoft Dynamics 365 Business Central version . . ."
-$onPremArtifactUrl = Get-BcArtifactUrl -type OnPrem -country "w1" -version $bcVersion
-if (-not $onPremArtifactUrl) {
-    Write-Host "WARNING: $($bcVersion) is not a Microsoft Dynamics 365 Business Central On-Premise version."
-    Write-Host "Trying to get closest On-Premise version for Microsoft Dynamics 365 Business Central . . ."
-        
-    $onPremArtifactUrl = Get-BcArtifactUrl -type OnPrem -country "w1" -version ($bcVersion.Split(".")[0] + "." + $bcVersion.Split(".")[1])
+if (Get-Command -Name "Get-BcArtifactUrl" -ErrorAction SilentlyContinue) {
+    Write-Host "Verifying Microsoft Dynamics 365 Business Central version . . ."
+    $onPremArtifactUrl = Get-BcArtifactUrl -type OnPrem -country "w1" -version $bcVersion
     if (-not $onPremArtifactUrl) {
-        throw "The corresponding On-Premise version of Microsoft Dynamics 365 Business Central cannot be determined! Please contact support for further assistance."
+        Write-Host "WARNING: $($bcVersion) is not a Microsoft Dynamics 365 Business Central On-Premise version."
+        Write-Host "Trying to get closest On-Premise version for Microsoft Dynamics 365 Business Central . . ."
+            
+        $onPremArtifactUrl = Get-BcArtifactUrl -type OnPrem -country "w1" -version ($bcVersion.Split(".")[0] + "." + $bcVersion.Split(".")[1])
+        if (-not $onPremArtifactUrl) {
+            throw "The corresponding On-Premise version of Microsoft Dynamics 365 Business Central cannot be determined! Please contact support for further assistance."
+        }
+        $bcVersion = $onPremArtifactUrl.Split("/")[4]
+        Write-Host "Version: $($bcVersion)"
+        Write-Host "WARNING: Version '$($bcVersion)'does not match the match the actual version installed. Runtime packages are precompiled application packages and we cannot guarantee that these packages will work correctly on other versions."
     }
-    $bcVersion = $onPremArtifactUrl.Split("/")[4]
-    Write-Host "Version: $($bcVersion)"
-    Write-Host "WARNING: Version '$($bcVersion)'does not match the match the actual version installed. Runtime packages are precompiled application packages and we cannot guarantee that these packages will work correctly on other versions."
 }
 
 Write-Host
