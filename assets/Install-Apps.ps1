@@ -98,17 +98,35 @@ if (-not (Get-Command -Name "Get-NAVServerInstance" -ErrorAction SilentlyContinu
     Write-Host "Importing modules . . ."
 
     $psModules = @(
-        'Microsoft.Dynamics.Nav.Management.dll',
-        'Microsoft.Dynamics.Nav.Apps.Management.dll'
+        'Microsoft.BusinessCentral.Management.dll',
+        'Microsoft.BusinessCentral.Apps.Management.dll'
     )
 
     $psModules | ForEach-Object {
-        Get-ChildItem -Path 'C:\Program Files\Microsoft Dynamics*\*0\Service\' -Filter $_ -Recurse | ForEach-Object {
+        Get-ChildItem -Path 'C:\Program Files\Microsoft Dynamics*\*\Service\' -Filter $_ -Recurse | ForEach-Object {
             Write-Host "`tImporting module " -NoNewline
             Write-Host $($_.Name) -NoNewline -ForegroundColor Cyan
             Write-Host " from " -NoNewline
             Write-Host $($_.Directory) -ForegroundColor Cyan
             Import-Module $_.FullName -Force -Global -DisableNameChecking
+        }
+    }
+
+    if (-not (Get-Command -Name "Get-NAVServerInstance" -ErrorAction SilentlyContinue)) {
+        # Try to load legacy modules for older versions of Microsoft Dynamics 365 Business Central / Dynamics NAV
+        $psModules = @(
+            'Microsoft.Dynamics.Nav.Management.dll',
+            'Microsoft.Dynamics.Nav.Apps.Management.dll'
+        )
+
+        $psModules | ForEach-Object {
+            Get-ChildItem -Path 'C:\Program Files\Microsoft Dynamics*\*0\Service\' -Filter $_ -Recurse | ForEach-Object {
+                Write-Host "`tImporting module " -NoNewline
+                Write-Host $($_.Name) -NoNewline -ForegroundColor Cyan
+                Write-Host " from " -NoNewline
+                Write-Host $($_.Directory) -ForegroundColor Cyan
+                Import-Module $_.FullName -Force -Global -DisableNameChecking
+            }
         }
     }
 
