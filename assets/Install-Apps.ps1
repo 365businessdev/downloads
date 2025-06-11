@@ -1,7 +1,7 @@
 <#
  MIT License
 
- Copyright (c) 2023 365 business development GmbH
+ Copyright (c) 2025 365 business development GmbH
 
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -186,6 +186,21 @@ if (-not $bcBaseApp) {
         Write-Host "WARNING: Version '$($version)' has been passed from external and does not match the match the actual version installed. Runtime packages are precompiled application packages and we cannot guarantee that these packages will work correctly on other versions."
         $bcVersion = $version
     }
+}
+
+Write-Host "Verifying Microsoft Dynamics 365 Business Central version . . ."
+$onPremArtifactUrl = Get-BcArtifactUrl -type OnPrem -country "w1" -version $bcVersion
+if (-not $onPremArtifactUrl) {
+    Write-Host "WARNING: $($bcVersion) is not a Microsoft Dynamics 365 Business Central On-Premise version."
+    Write-Host "Trying to get closest On-Premise version for Microsoft Dynamics 365 Business Central . . ."
+        
+    $onPremArtifactUrl = Get-BcArtifactUrl -type OnPrem -country "w1" -version ($bcVersion.Split(".")[0] + "." + $bcVersion.Split(".")[1])
+    if (-not $onPremArtifactUrl) {
+        throw "The corresponding On-Premise version of Microsoft Dynamics 365 Business Central cannot be determined! Please contact support for further assistance."
+    }
+    $bcVersion = $onPremArtifactUrl.Split("/")[4]
+    Write-Host "Version: $($bcVersion)"
+    Write-Host "WARNING: Version '$($bcVersion)'does not match the match the actual version installed. Runtime packages are precompiled application packages and we cannot guarantee that these packages will work correctly on other versions."
 }
 
 Write-Host
