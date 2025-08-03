@@ -6,7 +6,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 ## Anwendungsinformationen
 **Version:** 17.13.272.20776<br>
-**Zuletzt aktualisiert:** 01.08.2025
+**Zuletzt aktualisiert:** 03.08.2025
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis</strong> Die aktuelle Dokumentation zu dieser Version finden Sie unter <a href="https://docs.365businessdev.com/de-DE/365-business-eric/" target="_blank">https://docs.365businessdev.com/de-DE/365-business-eric/</a>
@@ -236,6 +236,7 @@ In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen a
 | `24.13.33364.0` | Business Central 2024 Release Wave 1 Cumulative Update 13 | 17.13.272.20776 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=24.13.33364.0) |
 | `24.14.34725.0` | Business Central 2024 Release Wave 1 Cumulative Update 14 | 17.13.272.20776 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=24.14.34725.0) |
 | `24.15.35999.0` | Business Central 2024 Release Wave 1 Cumulative Update 15 | 17.13.272.20776 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=24.15.35999.0) |
+| `24.16.37176.0` | Business Central 2024 Release Wave 1 Cumulative Update 16 | 17.13.272.20776 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=24.16.37176.0) |
 
  ## Business Central 2024 Release Wave 2 (BC 25)
  
