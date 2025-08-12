@@ -17,6 +17,20 @@ Die Runtime Packages sind in der Regel für die Verwendung mit Microsoft Dynamic
 
 Die Installation von Erweiterungen in Microsoft Dynamics 365 Business Central On-Premise Umgebungen findet über die Windows PowerShell statt. Um die Installation zu vereinfachen und das Fehlerpotential zu verringern stellen wir ein PowerShell Script, den **365 business development App Installer**, zur Verfügung, welches Sie zur Installation unserer Erweiterungen für Microsoft Dynamics 365 Business Central verwenden können.
 
+### NuGet Feed
+
+Die Runtime Packages für unsere Erweiterungen sind zusätzlich über unseren NuGet Feed verfügbar. Sie können den NuGet Feed beispielsweise in Ihren CI/CD-Pipelines verwenden, um die Pakete automatisch herunterzuladen und zu installieren, oder Sie verwenden den Feed für die Installation über PowerShell.
+
+[📦 MSDyn365BCRuntimeApps NuGet Feed](https://dev.azure.com/365businessdev/Public/_artifacts/feed/MSDyn365BCRuntimeApps)
+ 
+<div class="alert alert-notice">
+    <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
+    <strong>Gut zu wissen</strong>
+    Sie sind 365 business development Partner?<br>Dann können Sie zusätzlich auf den Partner Feed zugreifen, in dem wir neben den aktuell verfügbaren Versionen auch <i>Pre-Release</i> Versionen unserer Erweiterungen bereitstellen.<br>
+    <br>
+    Sprechen Sie uns an, wenn Sie noch keinen Zugang haben.
+</div>
+
 ### Download
 
 Den **365 business development App Installer** stellen wir auf unserer GitHub Seite zur Verfügung. Dort finden Sie den Quellcode des PowerShell Skripts und können es von hier herunterladen. Der 365 business development App Installer ist unter der MIT-Lizenz lizenziert. Das bedeutet, dass Sie das Skript für Ihre eigenen Zwecke verwenden können, solange Sie die Lizenzbedingungen einhalten.
