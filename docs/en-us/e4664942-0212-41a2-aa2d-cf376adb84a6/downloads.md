@@ -1,4 +1,4 @@
-﻿# 365 business Address Validation - Runtime Packages
+﻿# 365 business Address Validation
 
 This article publishes the various runtime packages for the 365 business Address Validation extension, for Microsoft Dynamics 365 Business Central.
 
@@ -6,7 +6,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 ## Application Information
 **Version:** 18.10.130.14542<br>
-**Updated:** 08/10/2025
+**Updated:** 08/17/2025
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis</strong> The current documentation for this version can be found at <a href="https://docs.365businessdev.com/en-us/365-business-address-validation/" target="_blank">https://docs.365businessdev.com/en-us/365-business-address-validation/</a>
@@ -24,7 +24,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 Use the following command to install the 365 business Address Validation extension for Microsoft Dynamics 365 Business Central, using the <a href="https://365businessdev.github.io/downloads/assets/Install-Apps.ps1" target="_blank" title="Download 365 business development App Installer">365 business development App Installer</a>:
 ```ps
-.\Install-Apps.ps1 -appIds @(
+.\Install-Apps.ps1 -apps @(
 	'0f94d4ef-5c3a-4002-93f2-2a2be05219c0', # 365 business API by 365 business development
 	'fcfc9bac-8f9b-402f-9e64-30a8287bc78f', # 365 business development Extension License by 365 business development
 	'e4664942-0212-41a2-aa2d-cf376adb84a6'  # 365 business Address Validation by 365 business development
@@ -34,6 +34,12 @@ Use the following command to install the 365 business Address Validation extensi
 <div class="alert alert-notice">
     <i class="fa-light fa-hand-point-up fa-lg fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Learn more</strong>Visit our <a href="https://docs.365businessdev.com/en-us/installation/" target="_blank">installation documentation</a> for more information.
 </div>
+
+## NuGet Feed
+
+The runtime packages for 365 business Address Validation are also available via our NuGet feed. You can use the NuGet feed, for example, in your CI/CD pipelines to automatically download and install the packages, or you can use the feed for installation via PowerShell.
+
+[ðŸ“¦ MSDyn365BCRuntimeApps NuGet Feed](https://dev.azure.com/365businessdev/Public/_artifacts/feed/MSDyn365BCRuntimeApps/NuGet/365businessdevelopment.365businessAddressValidation.runtime.e4664942-0212-41a2-aa2d-cf376adb84a6)
 
 # Platform Versions
 
