@@ -6,7 +6,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 ## Application Information
 **Version:** 18.2.64.16486<br>
-**Updated:** 08/31/2025
+**Updated:** 09/07/2025
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis</strong> The current documentation for this version can be found at <a href="https://docs.365businessdev.com/en-us/365-business-barcode/" target="_blank">https://docs.365businessdev.com/en-us/365-business-barcode/</a>
