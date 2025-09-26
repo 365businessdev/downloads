@@ -8,7 +8,9 @@ Bitte beachten Sie, dass es wichtig ist, die richtige PlattformVersion für Ihre
 Die Runtime Packages sind in der Regel für die Verwendung mit Microsoft Dynamics 365 Business Central On-Premise Versionen gedacht. Wenn Sie eine Dynamics 365 Business Central Online-Umgebung (SaaS) verwenden, sollten Sie die entsprechenden Pakete über den Microsoft AppSource Marktplatz beziehen.
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis:</strong> Wenn Sie nicht sicher sind, wie Sie vorgehen sollen, oder wenn Sie Fragen zu den Runtime Packages haben, wenden Sie sich bitte an unseren Support. Wir helfen Ihnen gerne weiter.<br>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
+    <strong>Hinweis</strong>
+	Wenn Sie nicht sicher sind, wie Sie vorgehen sollen, oder wenn Sie Fragen zu den Runtime Packages haben, wenden Sie sich bitte an unseren Support. Wir helfen Ihnen gerne weiter.<br>
     <br>
     Weitere Informationen finden Sie in unserer <a href="https://docs.365businessdev.com/de-de/installation/introduction.html" target="_blank">Installationsdokumentation</a>.
 </div>
@@ -21,7 +23,7 @@ Die Installation von Erweiterungen in Microsoft Dynamics 365 Business Central On
 
 Die Runtime Packages für unsere Erweiterungen sind zusätzlich über unseren NuGet Feed verfügbar. Sie können den NuGet Feed beispielsweise in Ihren CI/CD-Pipelines verwenden, um die Pakete automatisch herunterzuladen und zu installieren, oder Sie verwenden den Feed für die Installation über PowerShell.
 
-[📦 MSDyn365BCRuntimeApps NuGet Feed](https://dev.azure.com/365businessdev/Public/_artifacts/feed/MSDyn365BCRuntimeApps)
+<i class="fa-duotone fa-light fa-box-open-full fa-xl" style="--fa-primary-color: #cda180; --fa-secondary-color: #cda180;"></i> [MSDyn365BCRuntimeApps NuGet Feed](https://dev.azure.com/365businessdev/Public/_artifacts/feed/MSDyn365BCRuntimeApps)
  
 <div class="alert alert-notice">
     <i class="fa-duotone fa-solid fa-lightbulb fa-xl"></i>
