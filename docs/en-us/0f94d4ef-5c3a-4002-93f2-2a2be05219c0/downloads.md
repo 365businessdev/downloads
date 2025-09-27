@@ -6,10 +6,12 @@ A runtime package is a precompiled application package that you can use in your 
 
 ## Application Information
 **Version:** 17.11.63.20794<br>
-**Updated:** 09/21/2025
+**Updated:** 09/28/2025
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis</strong> The current documentation for this version can be found at <a href="https://docs.365businessdev.com/en-us/365-business-api/" target="_blank">https://docs.365businessdev.com/en-us/365-business-api/</a>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
+	<strong>Info</strong>
+    The current documentation for this version can be found at <a href="https://docs.365businessdev.com/en-us/365-business-api/" target="_blank">https://docs.365businessdev.com/en-us/365-business-api/</a>
 </div>
 
 
@@ -23,15 +25,17 @@ Use the following command to install the 365 business API extension for Microsof
 )
 ```
 
-<div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Learn more</strong>Visit our <a href="https://docs.365businessdev.com/en-us/installation/" target="_blank">installation documentation</a> for more information.
+<div class="alert alert-success">
+    <i class="fa-duotone fa-solid fa-question-circle fa-xl"></i>
+    <strong>Did you know?</strong>
+    Visit our <a href="https://docs.365businessdev.com/en-us/installation/" target="_blank">installation documentation</a> for more information.
 </div>
 
 ## NuGet Feed
 
 The runtime packages for 365 business API are also available via our NuGet feed. You can use the NuGet feed, for example, in your CI/CD pipelines to automatically download and install the packages, or you can use the feed for installation via PowerShell.
 
-[ðŸ“¦ MSDyn365BCRuntimeApps NuGet Feed](https://dev.azure.com/365businessdev/Public/_artifacts/feed/MSDyn365BCRuntimeApps/NuGet/365businessdevelopment.365businessAPI.runtime.0f94d4ef-5c3a-4002-93f2-2a2be05219c0)
+<i class="fa-duotone fa-light fa-box-open-full fa-xl" style="--fa-primary-color: #cda180; --fa-secondary-color: #cda180;"></i> [MSDyn365BCRuntimeApps NuGet Feed](https://dev.azure.com/365businessdev/Public/_artifacts/feed/MSDyn365BCRuntimeApps/NuGet/365businessdevelopment.365businessAPI.runtime.0f94d4ef-5c3a-4002-93f2-2a2be05219c0)
 
 # Platform Versions
 
