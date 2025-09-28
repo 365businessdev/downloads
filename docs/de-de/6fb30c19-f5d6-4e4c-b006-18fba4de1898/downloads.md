@@ -6,10 +6,12 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 ## Anwendungsinformationen
 **Version:** 18.12.230.20314<br>
-**Zuletzt aktualisiert:** 21.09.2025
+**Zuletzt aktualisiert:** 28.09.2025
 
 <div class="alert alert-info">
-    <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Hinweis</strong> Die aktuelle Dokumentation zu dieser Version finden Sie unter <a href="https://docs.365businessdev.com/de-de/365-business-print-agent" target="_blank">https://docs.365businessdev.com/de-de/365-business-print-agent</a>
+    <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
+    <strong>Hinweis</strong>
+    Die aktuelle Dokumentation zu dieser Version finden Sie unter <a href="https://docs.365businessdev.com/de-de/365-business-print-agent" target="_blank">https://docs.365businessdev.com/de-de/365-business-print-agent</a>
 </div>
 
 ### Abhängigkeiten 
@@ -29,15 +31,17 @@ Verwenden Sie folgenden Befehl zur Installation der 365 business Print Agent Erw
 )
 ```
 
-<div class="alert alert-notice">
-    <i class="fa-light fa-hand-point-up fa-lg fa-lg" style="--fa-secondary-color: #FF0000; --fa-primary-color: #111111; --fa-secondary-opacity: 0.7"></i> <strong>Mehr erfahren</strong>Besuchen Sie unsere <a href="https://docs.365businessdev.com/de-de/installation/" target="_blank">Installationsdokumentation</a> für weitere Informationen.
+<div class="alert alert-success">
+    <i class="fa-duotone fa-solid fa-question-circle fa-xl"></i>
+    <strong>Wussten Sie schon?</strong>
+    Besuchen Sie unsere <a href="https://docs.365businessdev.com/de-de/installation/" target="_blank">Installationsdokumentation</a> für weitere Informationen.
 </div>
 
 ## NuGet Feed
 
 Die Runtime Packages für 365 business Print Agent sind zusätzlich über unseren NuGet Feed verfügbar. Sie können den NuGet Feed beispielsweise in Ihren CI/CD-Pipelines verwenden, um die Pakete automatisch herunterzuladen und zu installieren, oder Sie verwenden den Feed für die Installation über PowerShell.
 
-[ðŸ“¦ MSDyn365BCRuntimeApps NuGet Feed](https://dev.azure.com/365businessdev/Public/_artifacts/feed/MSDyn365BCRuntimeApps/NuGet/365businessdevelopment.365businessPrintAgent.runtime.6fb30c19-f5d6-4e4c-b006-18fba4de1898)
+<i class="fa-duotone fa-light fa-box-open-full fa-xl" style="--fa-primary-color: #cda180; --fa-secondary-color: #cda180;"></i> [MSDyn365BCRuntimeApps NuGet Feed](https://dev.azure.com/365businessdev/Public/_artifacts/feed/MSDyn365BCRuntimeApps/NuGet/365businessdevelopment.365businessPrintAgent.runtime.6fb30c19-f5d6-4e4c-b006-18fba4de1898)
 
 # Plattform Versionen
 
