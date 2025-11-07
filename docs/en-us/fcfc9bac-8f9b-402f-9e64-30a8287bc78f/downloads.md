@@ -6,7 +6,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 ## Application Information
 **Version:** 2.1.137.18463<br>
-**Updated:** 11/01/2025
+**Updated:** 11/08/2025
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
@@ -260,6 +260,7 @@ The following table lists the various on-premise platform versions that have bee
 | `25.10.37185.0` | Business Central 2024 Release Wave 2 Cumulative Update 10 | 2.1.137.18463 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=25.10.37185.0) |
 | `25.11.38709.0` | Business Central 2024 Release Wave 2 Cumulative Update 11 | 2.1.137.18463 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=25.11.38709.0) |
 | `25.12.40060.0` | Business Central 2024 Release Wave 2 Cumulative Update 12 | 2.1.137.18463 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=25.12.40060.0) |
+| `25.13.41687.0` | Business Central 2024 Release Wave 2 Cumulative Update 13 | 2.1.137.18463 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=25.13.41687.0) |
 
  ## Business Central 2025 Release Wave 1 (BC 26)
  
@@ -273,12 +274,14 @@ The following table lists the various on-premise platform versions that have bee
 | `26.4.37194.37206` | Business Central 2025 Release Wave 1 Cumulative Update 4 | 2.1.137.18463 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=26.4.37194.37206) |
 | `26.5.38752.38819` | Business Central 2025 Release Wave 1 Cumulative Update 5 | 2.1.137.18463 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=26.5.38752.38819) |
 | `26.6.40035.0` | Business Central 2025 Release Wave 1 Cumulative Update 6 | 2.1.137.18463 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=26.6.40035.0) |
+| `26.7.41681.0` | Business Central 2025 Release Wave 1 Cumulative Update 7 | 2.1.137.18463 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=26.7.41681.0) |
 
  ## Business Central 2025 Release Wave 2 (BC 27)
  
 | Platform Version | Business Central Version | Version | Download |
 | --- | --- | --- | --- |
 | `27.0.38460.40242` | Business Central 2025 Release Wave 2  | 2.1.137.18463 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=27.0.38460.40242) |
+| `27.1.41698.41776` | Business Central 2025 Release Wave 2 Cumulative Update 1 | 2.1.137.18463 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=27.1.41698.41776) |
 
 
 # See also
