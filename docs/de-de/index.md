@@ -12,7 +12,7 @@ Die Runtime Packages sind in der Regel für die Verwendung mit Microsoft Dynamic
     <strong>Hinweis</strong>
 	Wenn Sie nicht sicher sind, wie Sie vorgehen sollen, oder wenn Sie Fragen zu den Runtime Packages haben, wenden Sie sich bitte an unseren Support. Wir helfen Ihnen gerne weiter.<br>
     <br>
-    Weitere Informationen finden Sie in unserer <a href="https://docs.365businessdev.com/de-de/installation/introduction.html" target="_blank">Installationsdokumentation</a>.
+    Weitere Informationen finden Sie in unserer <a href="https://docs.365businessdev.com/de-de/installation/" target="_blank">Installationsdokumentation</a>.
 </div>
 
 ## Installation 
@@ -41,5 +41,5 @@ Den **365 business development App Installer** stellen wir auf unserer GitHub Se
 
 # Siehe auch
 
- - [Dokumentation - Installation](https://docs.365businessdev.com/de-de/installation/introduction.html)
+ - [Dokumentation - Installation](https://docs.365businessdev.com/de-de/installation/)
  - [Microsoft Learn - Runtime Packages (en-US)](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-creating-runtime-packages)

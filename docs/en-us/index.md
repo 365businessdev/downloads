@@ -10,7 +10,7 @@ The runtime packages are generally intended for use with Microsoft Dynamics 365 
 <div class="alert alert-info">
     <i class="fa-duotone fa-thin fa-lightbulb fa-lg" style="--fa-secondary-color: #00b7c3; --fa-primary-color: #111111;"></i> <strong>Note:</strong> If you are unsure how to proceed or have questions about the runtime packages, please contact our support. We are happy to assist you.<br>
     <br>
-    For more information, please refer to our <a href="https://docs.365businessdev.com/de-de/installation/introduction.html" target="_blank">installation documentation</a>.
+    For more information, please refer to our <a href="https://docs.365businessdev.com/en-us/installation/" target="_blank">installation documentation</a>.
 </div>
 
 ## Installation 
@@ -39,5 +39,5 @@ We provide the **365 business development App Installer** on our GitHub page. Th
 
 # See also
 
- - [Documentation - Installation](https://docs.365businessdev.com/de-de/installation/introduction.html)
+ - [Documentation - Installation](https://docs.365businessdev.com/en-us/installation/)
  - [Microsoft Learn - Runtime Packages (en-US)](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-creating-runtime-packages)
