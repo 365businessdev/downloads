@@ -35,7 +35,7 @@ The runtime packages for our extensions are also available via our NuGet feed. Y
 
 We provide the **365 business development App Installer** on our GitHub page. There you will find the source code of the PowerShell script and can download it from there. The 365 business development App Installer is licensed under the MIT license. This means you can use the script for your own purposes as long as you comply with the license terms.
 
-<span style="padding-left: 10px;"><a href="https://365businessdev.github.io/downloads/assets/Install-Apps.ps1" target="_blank">365 business development App Installer</a></span>
+<span style="padding-left: 10px;"><a href="https://downloads.365businessdev.com/assets/Install-Apps.ps1" target="_blank">365 business development App Installer</a></span>
 
 # See also
 

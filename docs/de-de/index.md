@@ -37,7 +37,7 @@ Die Runtime Packages für unsere Erweiterungen sind zusätzlich über unseren Nu
 
 Den **365 business development App Installer** stellen wir auf unserer GitHub Seite zur Verfügung. Dort finden Sie den Quellcode des PowerShell Skripts und können es von hier herunterladen. Der 365 business development App Installer ist unter der MIT-Lizenz lizenziert. Das bedeutet, dass Sie das Skript für Ihre eigenen Zwecke verwenden können, solange Sie die Lizenzbedingungen einhalten.
 
-<span style="padding-left: 10px;"><a href="https://365businessdev.github.io/downloads/assets/Install-Apps.ps1" target="_blank">365 business development App Installer</a></span>
+<span style="padding-left: 10px;"><a href="https://downloads.365businessdev.com/assets/Install-Apps.ps1" target="_blank">365 business development App Installer</a></span>
 
 # Siehe auch
 
