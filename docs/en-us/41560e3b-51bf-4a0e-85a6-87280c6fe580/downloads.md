@@ -5,8 +5,8 @@ This article publishes the various runtime packages for the 365 business Sanctio
 A runtime package is a precompiled application package that you can use in your Microsoft Dynamics 365 Business Central on-premise installation. It is important to use the correct version for your platform version of Microsoft Dynamics 365 Business Central.
 
 ## Application Information
-**Version:** 18.2.149.20889<br>
-**Updated:** 11/23/2025
+**Version:** 18.2.154.22385<br>
+**Updated:** 11/30/2025
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
@@ -24,7 +24,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 ## Installation
 
-Use the following command to install the 365 business Sanction Screen extension for Microsoft Dynamics 365 Business Central, using the <a href="https://365businessdev.github.io/downloads/assets/Install-Apps.ps1" target="_blank" title="Download 365 business development App Installer">365 business development App Installer</a>:
+Use the following command to install the 365 business Sanction Screen extension for Microsoft Dynamics 365 Business Central, using the <a href="https://downloads.365businessdev.com/assets/Install-Apps.ps1" target="_blank" title="Download 365 business development App Installer">365 business development App Installer</a>:
 ```ps
 .\Install-Apps.ps1 -apps @(
 	'0f94d4ef-5c3a-4002-93f2-2a2be05219c0', # 365 business API by 365 business development

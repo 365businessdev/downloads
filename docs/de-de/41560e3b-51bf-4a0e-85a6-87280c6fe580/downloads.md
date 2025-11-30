@@ -5,8 +5,8 @@ In diesem Artikel werden die verschiedenen Runtime Packages für die 365 busines
 Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer Microsoft Dynamics 365 Business Central On-Premise Installation verwenden können. Hierbei ist es wichtig die korrekte Version, für die bei Ihnen eingesetzte Plattform Version von Microsoft Dynamics 365 Business Central, zu verwenden.
 
 ## Anwendungsinformationen
-**Version:** 18.2.149.20889<br>
-**Zuletzt aktualisiert:** 23.11.2025
+**Version:** 18.2.154.22385<br>
+**Zuletzt aktualisiert:** 30.11.2025
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
@@ -24,7 +24,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 ## Installation
 
-Verwenden Sie folgenden Befehl zur Installation der 365 business Sanction Screen Erweiterung für Microsoft Dynamics 365 Business Central, mit dem <a href="https://365businessdev.github.io/downloads/assets/Install-Apps.ps1" target="_blank" title="Download 365 business development App Installer">365 business development App Installer</a>:
+Verwenden Sie folgenden Befehl zur Installation der 365 business Sanction Screen Erweiterung für Microsoft Dynamics 365 Business Central, mit dem <a href="https://downloads.365businessdev.com/assets/Install-Apps.ps1" target="_blank" title="Download 365 business development App Installer">365 business development App Installer</a>:
 ```ps
 .\Install-Apps.ps1 -apps @(
 	'0f94d4ef-5c3a-4002-93f2-2a2be05219c0', # 365 business API by 365 business development
