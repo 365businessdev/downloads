@@ -6,7 +6,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 ## Anwendungsinformationen
 **Version:** 18.12.238.22326<br>
-**Zuletzt aktualisiert:** 21.11.2025
+**Zuletzt aktualisiert:** 30.11.2025
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
@@ -23,7 +23,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 ## Installation
 
-Verwenden Sie folgenden Befehl zur Installation der 365 business Print Agent Erweiterung für Microsoft Dynamics 365 Business Central, mit dem <a href="https://365businessdev.github.io/downloads/assets/Install-Apps.ps1" target="_blank" title="Download 365 business development App Installer">365 business development App Installer</a>:
+Verwenden Sie folgenden Befehl zur Installation der 365 business Print Agent Erweiterung für Microsoft Dynamics 365 Business Central, mit dem <a href="https://downloads.365businessdev.com/assets/Install-Apps.ps1" target="_blank" title="Download 365 business development App Installer">365 business development App Installer</a>:
 ```ps
 .\Install-Apps.ps1 -apps @(
 	'fcfc9bac-8f9b-402f-9e64-30a8287bc78f', # 365 business development Extension License by 365 business development

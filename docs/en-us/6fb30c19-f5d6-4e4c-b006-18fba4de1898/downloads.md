@@ -6,7 +6,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 ## Application Information
 **Version:** 18.12.238.22326<br>
-**Updated:** 11/21/2025
+**Updated:** 11/30/2025
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
@@ -23,7 +23,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 ## Installation
 
-Use the following command to install the 365 business Print Agent extension for Microsoft Dynamics 365 Business Central, using the <a href="https://365businessdev.github.io/downloads/assets/Install-Apps.ps1" target="_blank" title="Download 365 business development App Installer">365 business development App Installer</a>:
+Use the following command to install the 365 business Print Agent extension for Microsoft Dynamics 365 Business Central, using the <a href="https://downloads.365businessdev.com/assets/Install-Apps.ps1" target="_blank" title="Download 365 business development App Installer">365 business development App Installer</a>:
 ```ps
 .\Install-Apps.ps1 -apps @(
 	'fcfc9bac-8f9b-402f-9e64-30a8287bc78f', # 365 business development Extension License by 365 business development
