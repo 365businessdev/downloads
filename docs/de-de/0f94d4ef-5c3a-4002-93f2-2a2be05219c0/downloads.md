@@ -261,6 +261,7 @@ In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen a
 | `25.11.38709.0` | Business Central 2024 Release Wave 2 Cumulative Update 11 | 17.11.63.20794 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=25.11.38709.0) |
 | `25.12.40060.0` | Business Central 2024 Release Wave 2 Cumulative Update 12 | 17.11.63.20794 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=25.12.40060.0) |
 | `25.13.41687.0` | Business Central 2024 Release Wave 2 Cumulative Update 13 | 17.11.63.20794 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=25.13.41687.0) |
+| `25.14.42772.0` | Business Central 2024 Release Wave 2 Cumulative Update 14 | 17.11.63.20794 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=25.14.42772.0) |
 
  ## Business Central 2025 Release Wave 1 (BC 26)
  
@@ -275,6 +276,7 @@ In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen a
 | `26.5.38752.38819` | Business Central 2025 Release Wave 1 Cumulative Update 5 | 17.11.63.20794 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=26.5.38752.38819) |
 | `26.6.40035.0` | Business Central 2025 Release Wave 1 Cumulative Update 6 | 17.11.63.20794 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=26.6.40035.0) |
 | `26.7.41681.0` | Business Central 2025 Release Wave 1 Cumulative Update 7 | 17.11.63.20794 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=26.7.41681.0) |
+| `26.8.42779.0` | Business Central 2025 Release Wave 1 Cumulative Update 8 | 17.11.63.20794 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=26.8.42779.0) |
 
  ## Business Central 2025 Release Wave 2 (BC 27)
  
@@ -282,6 +284,7 @@ In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen a
 | --- | --- | --- | --- |
 | `27.0.38460.40242` | Business Central 2025 Release Wave 2  | 17.11.63.20794 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=27.0.38460.40242) |
 | `27.1.41698.41776` | Business Central 2025 Release Wave 2 Cumulative Update 1 | 17.11.63.20794 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=27.1.41698.41776) |
+| `27.2.42879.0` | Business Central 2025 Release Wave 2 Cumulative Update 2 | 17.11.63.20794 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=27.2.42879.0) |
 
 
 # Siehe auch
