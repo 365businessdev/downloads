@@ -215,6 +215,7 @@ The following table lists the various on-premise platform versions that have bee
 | `26.6.40035.0` | Business Central 2025 Release Wave 1 Cumulative Update 6 | 20.5.87.22784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=26.6.40035.0) |
 | `26.7.41681.0` | Business Central 2025 Release Wave 1 Cumulative Update 7 | 20.5.87.22784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=26.7.41681.0) |
 | `26.8.42779.0` | Business Central 2025 Release Wave 1 Cumulative Update 8 | 20.5.87.22784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=26.8.42779.0) |
+| `26.9.44297.0` | Business Central 2025 Release Wave 1 Cumulative Update 9 | 20.5.87.22784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=26.9.44297.0) |
 
  ## Business Central 2025 Release Wave 2 (BC 27)
  
