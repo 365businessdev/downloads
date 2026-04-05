@@ -202,6 +202,7 @@ The following table lists the various on-premise platform versions that have bee
 | `25.15.44303.0` | Business Central 2024 Release Wave 2 Cumulative Update 15 | 20.5.87.22784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=25.15.44303.0) |
 | `25.16.45420.0` | Business Central 2024 Release Wave 2 Cumulative Update 16 | 20.5.87.22784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=25.16.45420.0) |
 | `25.17.46850.0` | Business Central 2024 Release Wave 2 Cumulative Update 17 | 20.5.87.22784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=25.17.46850.0) |
+| `25.18.48229.0` | Business Central 2024 Release Wave 2 Cumulative Update 18 | 20.5.87.22784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=25.18.48229.0) |
 
  ## Business Central 2025 Release Wave 1 (BC 26)
  
@@ -220,6 +221,7 @@ The following table lists the various on-premise platform versions that have bee
 | `26.9.44297.0` | Business Central 2025 Release Wave 1 Cumulative Update 9 | 20.5.87.22784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=26.9.44297.0) |
 | `26.10.45355.0` | Business Central 2025 Release Wave 1 Cumulative Update 10 | 20.5.87.22784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=26.10.45355.0) |
 | `26.11.46853.0` | Business Central 2025 Release Wave 1 Cumulative Update 11 | 20.5.87.22784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=26.11.46853.0) |
+| `26.12.48244.0` | Business Central 2025 Release Wave 1 Cumulative Update 12 | 20.5.87.22784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=66745141-90b6-4fb0-906a-94400600f856&version=26.12.48244.0) |
 
  ## Business Central 2025 Release Wave 2 (BC 27)
  
