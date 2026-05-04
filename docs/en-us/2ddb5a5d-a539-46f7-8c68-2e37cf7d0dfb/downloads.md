@@ -6,7 +6,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 ## Application Information
 **Version:** 18.2.444.24977<br>
-**Updated:** 04/29/2026
+**Updated:** 05/04/2026
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
@@ -57,9 +57,9 @@ The following table lists the various on-premise platform versions that have bee
  
 | Platform Version | Business Central Version | Version | Download |
 | --- | --- | --- | --- |
-| `25.0.23364.24652` | Business Central 2024 Release Wave 2  | 18.2.434.24843 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=2ddb5a5d-a539-46f7-8c68-2e37cf7d0dfb&version=25.0.23364.24652) |
-| `25.0.23364.25445` | Business Central 2024 Release Wave 2  | 18.2.434.24843 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=2ddb5a5d-a539-46f7-8c68-2e37cf7d0dfb&version=25.0.23364.25445) |
-| `25.1.25873.25900` | Business Central 2024 Release Wave 2 Cumulative Update 1 | 18.2.434.24843 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=2ddb5a5d-a539-46f7-8c68-2e37cf7d0dfb&version=25.1.25873.25900) |
+| `25.0.23364.24652` | Business Central 2024 Release Wave 2  | 18.2.444.24977 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=2ddb5a5d-a539-46f7-8c68-2e37cf7d0dfb&version=25.0.23364.24652) |
+| `25.0.23364.25445` | Business Central 2024 Release Wave 2  | 18.2.444.24977 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=2ddb5a5d-a539-46f7-8c68-2e37cf7d0dfb&version=25.0.23364.25445) |
+| `25.1.25873.25900` | Business Central 2024 Release Wave 2 Cumulative Update 1 | 18.2.444.24977 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=2ddb5a5d-a539-46f7-8c68-2e37cf7d0dfb&version=25.1.25873.25900) |
 | `25.2.27733.27999` | Business Central 2024 Release Wave 2 Cumulative Update 2 | 18.2.444.24977 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=2ddb5a5d-a539-46f7-8c68-2e37cf7d0dfb&version=25.2.27733.27999) |
 | `25.3.28755.29378` | Business Central 2024 Release Wave 2 Cumulative Update 3 | 18.2.444.24977 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=2ddb5a5d-a539-46f7-8c68-2e37cf7d0dfb&version=25.3.28755.29378) |
 | `25.4.29661.29727` | Business Central 2024 Release Wave 2 Cumulative Update 4 | 18.2.444.24977 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=2ddb5a5d-a539-46f7-8c68-2e37cf7d0dfb&version=25.4.29661.29727) |
