@@ -244,7 +244,15 @@ $apps | ForEach-Object {
         {
             Invoke-WebRequest -Uri $downloadUrl -OutFile $appFile
         } catch {
-            throw "Failed to download app with id $($appId) for Microsoft Dynamics 365 Business Central service version $($bcVersion)!`r`nPlease contact your service provider for additional support.`r`n`r`nDetailed error message:`r`n$($_)"
+            Write-Warning "Failed to download app id '$($appId)' for version $($bcVersion). Retrying to download latest version . . ."
+            $fallbackUrl = "https://365businessapi.com/api/SoftwareDownload?AppId=$($appId)"
+            Write-Host "Invoke download from: $($fallbackUrl)"
+            Write-Host
+            try {
+                Invoke-WebRequest -Uri $fallbackUrl -OutFile $appFile
+            } catch {
+                throw "Failed to download app with id $($appId) for Microsoft Dynamics 365 Business Central service version $($bcVersion)!`r`nPlease contact your service provider for additional support.`r`n`r`nDetailed error message:`r`n$($_)"
+            }
         }
     } else {
         $appFile = $_
