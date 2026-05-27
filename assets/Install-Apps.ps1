@@ -26,6 +26,9 @@
   Microsoft Dynamics 365 Business Central Service.
  .Parameter apps
   List of 365 business development app ids or local app files to be installed.
+ .Parameter devScope
+  When specified, apps are published and installed in the Dev scope instead of the default Global scope.
+  Use this for developer environments where apps should be available as development extensions.
  .Example
   Install-Apps.ps1 -apps @(
     "fcfc9bac-8f9b-402f-9e64-30a8287bc78f", # Extension License Manager
@@ -51,7 +54,9 @@ Param(
     [Parameter(Mandatory=$false)]
     $appIds,
     [Parameter(Mandatory=$false)]
-    $version
+    $version,
+    [Parameter(Mandatory=$false)]
+    [switch] $devScope
 )
 
 Write-Host "365 business development App Installer" -ForegroundColor Cyan
@@ -69,6 +74,13 @@ if ((-not $apps) -and ($appIds)) {
     Write-Host "Transfering parameter values to 'apps' parameter."
 
     $apps = $appIds
+}
+
+Write-Host "Installation scope: " -NoNewline
+if ($devScope) {
+    Write-Host "Dev (HTTP endpoint)" -ForegroundColor Yellow
+} else {
+    Write-Host "Global" -ForegroundColor Cyan
 }
 
 function Test-IsGuid
@@ -279,6 +291,38 @@ $appFiles | ForEach-Object {
     }
     Write-Host "Running installation for app file $($appFile) . . ."
     try {
+        if ($devScope) {
+            $devEndpointUrl = "http://localhost:7049/$bcServiceInstanceName/dev/apps?SchemaUpdateMode=synchronize&tenant=default"
+            Write-Host "Publishing " -NoNewline
+            Write-Host ([System.IO.Path]::GetFileName($appFile)) -ForegroundColor Cyan -NoNewline
+            Write-Host " via dev endpoint ..."
+            $handler = [System.Net.Http.HttpClientHandler]::new()
+            $handler.UseDefaultCredentials = $true
+            $httpClient = [System.Net.Http.HttpClient]::new($handler)
+            try {
+                $fileStream = [System.IO.File]::OpenRead($appFile)
+                try {
+                    $multipartContent = [System.Net.Http.MultipartFormDataContent]::new()
+                    $fileContent = [System.Net.Http.StreamContent]::new($fileStream)
+                    $fileContent.Headers.ContentType = [System.Net.Http.Headers.MediaTypeHeaderValue]::new("application/octet-stream")
+                    $multipartContent.Add($fileContent, "file", [System.IO.Path]::GetFileName($appFile))
+                    $response = $httpClient.PostAsync($devEndpointUrl, $multipartContent).GetAwaiter().GetResult()
+                    if (-not $response.IsSuccessStatusCode) {
+                        $responseBody = $response.Content.ReadAsStringAsync().GetAwaiter().GetResult()
+                        throw "Dev endpoint returned HTTP $([int]$response.StatusCode) ($($response.StatusCode)): $responseBody"
+                    }
+                    Write-Host "Successfully published " -NoNewline
+                    Write-Host ([System.IO.Path]::GetFileName($appFile)) -ForegroundColor Cyan -NoNewline
+                    Write-Host " via dev endpoint." -ForegroundColor Green
+                } finally {
+                    $fileStream.Dispose()
+                }
+            } finally {
+                $httpClient.Dispose()
+            }
+            return
+        }
+
         $appInformation = Publish-NavApp -ServerInstance $bcServiceInstanceName -Path $appFile -SkipVerification -PassThru -ErrorAction SilentlyContinue
         if ($appInformation) {            
             Write-Host "Getting app information for " -NoNewline
