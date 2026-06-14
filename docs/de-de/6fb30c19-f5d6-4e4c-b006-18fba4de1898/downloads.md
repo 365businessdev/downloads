@@ -290,6 +290,7 @@ In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen a
 | --- | --- | --- | --- |
 | `28.0.46665.48549` | Business Central 2026 Release Wave 1  | 18.12.239.23676 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=28.0.46665.48549) |
 | `28.1.49838.49886` | Business Central 2026 Release Wave 1 Cumulative Update 1 | 18.12.239.23676 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=28.1.49838.49886) |
+| `28.2.50931.51034` | Business Central 2026 Release Wave 1 Cumulative Update 2 | 18.12.239.23676 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=6fb30c19-f5d6-4e4c-b006-18fba4de1898&version=28.2.50931.51034) |
 
 
 # Siehe auch
