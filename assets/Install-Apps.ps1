@@ -79,6 +79,15 @@ if ((-not $apps) -and ($appIds)) {
 Write-Host "Installation scope: " -NoNewline
 if ($devScope) {
     Write-Host "Dev (HTTP endpoint)" -ForegroundColor Yellow
+
+    # In Windows PowerShell 5.1 (the BC administration shell host) the System.Net.Http
+    # assembly is not loaded by default, so the HttpClient types used for the dev endpoint
+    # publish cannot be resolved. Load it explicitly before it is referenced.
+    try {
+        Add-Type -AssemblyName System.Net.Http -ErrorAction Stop
+    } catch {
+        throw "Unable to load required .NET assembly 'System.Net.Http' for dev scope publishing.`r`nDetailed error message:`r`n$($_)"
+    }
 } else {
     Write-Host "Global" -ForegroundColor Cyan
 }
@@ -385,10 +394,17 @@ $appFiles | ForEach-Object {
     } catch {
         Write-Warning $_
         Write-Host
-        Write-Host "Publishing $($appInformation.Name) failed. Please publish and install manually." -ForegroundColor Red
+        # Surface the actual error via Write-Host as well: the pipeline transcript does not
+        # capture the warning stream, so a bare Write-Warning leaves the failure cause invisible.
+        Write-Host "ERROR: $($_.Exception.Message)" -ForegroundColor Red
+        if ($appInformation.Name) {
+            Write-Host "Publishing $($appInformation.Name) failed. Please publish and install manually." -ForegroundColor Red
+        } else {
+            Write-Host "Publishing $([System.IO.Path]::GetFileName($appFile)) failed. Please publish and install manually." -ForegroundColor Red
+        }
 
         $script:errorOccurred = $true
-    }    
+    }
 }
 
 Write-Host
