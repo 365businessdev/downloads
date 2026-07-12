@@ -6,7 +6,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 ## Application Information
 **Version:** 17.14.304.25947<br>
-**Updated:** 07/05/2026
+**Updated:** 07/12/2026
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
@@ -296,6 +296,7 @@ The following table lists the various on-premise platform versions that have bee
 | `26.12.48244.0` | Business Central 2025 Release Wave 1 Cumulative Update 12 | 17.14.304.25947 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=26.12.48244.0) |
 | `26.13.49690.0` | Business Central 2025 Release Wave 1 Cumulative Update 13 | 17.14.304.25947 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=26.13.49690.0) |
 | `26.14.50858.0` | Business Central 2025 Release Wave 1 Cumulative Update 14 | 17.14.304.25947 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=26.14.50858.0) |
+| `26.15.52147.0` | Business Central 2025 Release Wave 1 Cumulative Update 15 | 17.14.304.25947 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=b03f5a4d-d257-4177-9881-7fba3c4cc5c5&version=26.15.52147.0) |
 
  ## Business Central 2025 Release Wave 2 (BC 27)
  
