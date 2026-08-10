@@ -1,8 +1,8 @@
 ﻿# 365 business Banking
 
-In diesem Artikel werden die verschiedenen Runtime Packages fÃ¼r die 365 business Banking Erweiterung, fÃ¼r Microsoft Dynamics 365 Business Central verÃ¶ffentlicht.
+In diesem Artikel werden die verschiedenen Runtime Packages für die 365 business Banking Erweiterung, für Microsoft Dynamics 365 Business Central veröffentlicht.
 
-Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer Microsoft Dynamics 365 Business Central On-Premise Installation verwenden kÃ¶nnen. Hierbei ist es wichtig die korrekte Version, fÃ¼r die bei Ihnen eingesetzte Plattform Version von Microsoft Dynamics 365 Business Central, zu verwenden.
+Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer Microsoft Dynamics 365 Business Central On-Premise Installation verwenden können. Hierbei ist es wichtig die korrekte Version, für die bei Ihnen eingesetzte Plattform Version von Microsoft Dynamics 365 Business Central, zu verwenden.
 
 ## Anwendungsinformationen
 **Version:** 18.3.512.26954<br>
@@ -14,7 +14,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
     Die aktuelle Dokumentation zu dieser Version finden Sie unter <a href="https://docs.365businessdev.com/de-de/365-business-banking/" target="_blank">https://docs.365businessdev.com/de-de/365-business-banking/</a>
 </div>
 
-### AbhÃ¤ngigkeiten 
+### Abhängigkeiten 
  
 | Name | Version |
 | --- | --- | 
@@ -25,7 +25,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 ## Installation
 
-Verwenden Sie folgenden Befehl zur Installation der 365 business Banking Erweiterung fÃ¼r Microsoft Dynamics 365 Business Central, mit dem <a href="https://downloads.365businessdev.com/assets/Install-Apps.ps1" target="_blank" title="Download 365 business development App Installer">365 business development App Installer</a>:
+Verwenden Sie folgenden Befehl zur Installation der 365 business Banking Erweiterung für Microsoft Dynamics 365 Business Central, mit dem <a href="https://downloads.365businessdev.com/assets/Install-Apps.ps1" target="_blank" title="Download 365 business development App Installer">365 business development App Installer</a>:
 ```ps
 .\Install-Apps.ps1 -apps @(
 	'0f94d4ef-5c3a-4002-93f2-2a2be05219c0', # 365 business API by 365 business development
@@ -37,18 +37,18 @@ Verwenden Sie folgenden Befehl zur Installation der 365 business Banking Erweite
 <div class="alert alert-success">
     <i class="fa-duotone fa-solid fa-question-circle fa-xl"></i>
     <strong>Wussten Sie schon?</strong>
-    Besuchen Sie unsere <a href="https://docs.365businessdev.com/de-de/installation/" target="_blank">Installationsdokumentation</a> fÃ¼r weitere Informationen.
+    Besuchen Sie unsere <a href="https://docs.365businessdev.com/de-de/installation/" target="_blank">Installationsdokumentation</a> für weitere Informationen.
 </div>
 
 ## NuGet Feed
 
-Die Runtime Packages fÃ¼r 365 business Banking sind zusÃ¤tzlich Ã¼ber unseren NuGet Feed verfÃ¼gbar. Sie kÃ¶nnen den NuGet Feed beispielsweise in Ihren CI/CD-Pipelines verwenden, um die Pakete automatisch herunterzuladen und zu installieren, oder Sie verwenden den Feed fÃ¼r die Installation Ã¼ber PowerShell.
+Die Runtime Packages für 365 business Banking sind zusätzlich über unseren NuGet Feed verfügbar. Sie können den NuGet Feed beispielsweise in Ihren CI/CD-Pipelines verwenden, um die Pakete automatisch herunterzuladen und zu installieren, oder Sie verwenden den Feed für die Installation über PowerShell.
 
 <i class="fa-duotone fa-light fa-box-open-full fa-xl" style="--fa-primary-color: #cda180; --fa-secondary-color: #cda180;"></i> [MSDyn365BCRuntimeApps NuGet Feed](https://dev.azure.com/365businessdev/Public/_artifacts/feed/MSDyn365BCRuntimeApps/NuGet/365businessdevelopment.365businessBanking.runtime.2ddb5a5d-a539-46f7-8c68-2e37cf7d0dfb)
 
 # Plattform Versionen
 
-In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen aufgefÃ¼hrt, die fÃ¼r Microsoft Dynamics 365 Business Central verfÃ¼gbar sind. Die entsprechende FunktionalitÃ¤t des eigentlichen Produkts oder der Erweiterung ist bei allen hier aufgefÃ¼hrten Versionen identisch.
+In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen aufgeführt, die für Microsoft Dynamics 365 Business Central verfügbar sind. Die entsprechende Funktionalität des eigentlichen Produkts oder der Erweiterung ist bei allen hier aufgeführten Versionen identisch.
 
 
  ## Business Central 2024 Release Wave 2 (BC 25)
