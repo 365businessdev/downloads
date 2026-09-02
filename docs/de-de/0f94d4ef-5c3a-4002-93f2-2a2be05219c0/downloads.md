@@ -5,8 +5,8 @@ In diesem Artikel werden die verschiedenen Runtime Packages für die 365 busines
 Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer Microsoft Dynamics 365 Business Central On-Premise Installation verwenden können. Hierbei ist es wichtig die korrekte Version, für die bei Ihnen eingesetzte Plattform Version von Microsoft Dynamics 365 Business Central, zu verwenden.
 
 ## Anwendungsinformationen
-**Version:** 17.11.65.27154<br>
-**Zuletzt aktualisiert:** 15.08.2026
+**Version:** 17.11.63.20794<br>
+**Zuletzt aktualisiert:** 02.09.2026
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>

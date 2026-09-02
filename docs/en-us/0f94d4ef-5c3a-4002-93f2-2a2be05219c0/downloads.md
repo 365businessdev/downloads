@@ -5,8 +5,8 @@ This article publishes the various runtime packages for the 365 business API ext
 A runtime package is a precompiled application package that you can use in your Microsoft Dynamics 365 Business Central on-premise installation. It is important to use the correct version for your platform version of Microsoft Dynamics 365 Business Central.
 
 ## Application Information
-**Version:** 17.11.65.27154<br>
-**Updated:** 08/15/2026
+**Version:** 17.11.63.20794<br>
+**Updated:** 09/02/2026
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
