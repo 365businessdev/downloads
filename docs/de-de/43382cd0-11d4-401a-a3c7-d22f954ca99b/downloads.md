@@ -6,7 +6,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 ## Anwendungsinformationen
 **Version:** 18.0.9.16784<br>
-**Zuletzt aktualisiert:** 19.07.2026
+**Zuletzt aktualisiert:** 04.09.2026
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
@@ -35,7 +35,7 @@ Verwenden Sie folgenden Befehl zur Installation der Find & Replace Erweiterung f
 
 Die Runtime Packages für Find & Replace sind zusätzlich über unseren NuGet Feed verfügbar. Sie können den NuGet Feed beispielsweise in Ihren CI/CD-Pipelines verwenden, um die Pakete automatisch herunterzuladen und zu installieren, oder Sie verwenden den Feed für die Installation über PowerShell.
 
-<i class="fa-duotone fa-light fa-box-open-full fa-xl" style="--fa-primary-color: #cda180; --fa-secondary-color: #cda180;"></i> [MSDyn365BCRuntimeApps NuGet Feed](https://dev.azure.com/365businessdev/Public/_artifacts/feed/MSDyn365BCRuntimeApps/NuGet/365businessdevelopment.Find&Replace.runtime.43382cd0-11d4-401a-a3c7-d22f954ca99b)
+<i class="fa-duotone fa-light fa-box-open-full fa-xl" style="--fa-primary-color: #cda180; --fa-secondary-color: #cda180;"></i> [MSDyn365BCRuntimeApps NuGet Feed](https://dev.azure.com/365businessdev/Public/_artifacts/feed/MSDyn365BCRuntimeApps/NuGet/365businessdevelopment.FindReplace.runtime.43382cd0-11d4-401a-a3c7-d22f954ca99b)
 
 # Plattform Versionen
 
@@ -264,6 +264,7 @@ In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen a
 | `26.13.49690.0` | Business Central 2025 Release Wave 1 Cumulative Update 13 | 18.0.9.16784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=26.13.49690.0) |
 | `26.14.50858.0` | Business Central 2025 Release Wave 1 Cumulative Update 14 | 18.0.9.16784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=26.14.50858.0) |
 | `26.15.52147.0` | Business Central 2025 Release Wave 1 Cumulative Update 15 | 18.0.9.16784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=26.15.52147.0) |
+| `26.16.53177.0` | Business Central 2025 Release Wave 1 Cumulative Update 16 | 18.0.9.16784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=26.16.53177.0) |
 
  ## Business Central 2025 Release Wave 2 (BC 27)
  
@@ -279,6 +280,7 @@ In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen a
 | `27.7.49739.0` | Business Central 2025 Release Wave 2 Cumulative Update 7 | 18.0.9.16784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=27.7.49739.0) |
 | `27.8.50894.0` | Business Central 2025 Release Wave 2 Cumulative Update 8 | 18.0.9.16784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=27.8.50894.0) |
 | `27.9.52145.0` | Business Central 2025 Release Wave 2 Cumulative Update 9 | 18.0.9.16784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=27.9.52145.0) |
+| `27.10.53179.0` | Business Central 2025 Release Wave 2 Cumulative Update 10 | 18.0.9.16784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=27.10.53179.0) |
 
  ## Business Central 2026 Release Wave 1 (BC 28)
  
@@ -288,6 +290,7 @@ In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen a
 | `28.1.49838.49886` | Business Central 2026 Release Wave 1 Cumulative Update 1 | 18.0.9.16784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=28.1.49838.49886) |
 | `28.2.50931.51034` | Business Central 2026 Release Wave 1 Cumulative Update 2 | 18.0.9.16784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=28.2.50931.51034) |
 | `28.3.52162.52222` | Business Central 2026 Release Wave 1 Cumulative Update 3 | 18.0.9.16784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=28.3.52162.52222) |
+| `28.4.53241.0` | Business Central 2026 Release Wave 1 Cumulative Update 4 | 18.0.9.16784 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=43382cd0-11d4-401a-a3c7-d22f954ca99b&version=28.4.53241.0) |
 
 
 # Siehe auch

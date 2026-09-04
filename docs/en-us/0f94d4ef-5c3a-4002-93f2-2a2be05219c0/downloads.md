@@ -6,7 +6,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 ## Application Information
 **Version:** 17.11.63.20794<br>
-**Updated:** 09/02/2026
+**Updated:** 09/04/2026
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
@@ -14,11 +14,6 @@ A runtime package is a precompiled application package that you can use in your 
     The current documentation for this version can be found at <a href="https://docs.365businessdev.com/en-us/365-business-api/" target="_blank">https://docs.365businessdev.com/en-us/365-business-api/</a>
 </div>
 
-### Dependencies 
- 
-| Name | Version |
-| --- | --- | 
-|  |  or later | 
 
 
 ## Installation

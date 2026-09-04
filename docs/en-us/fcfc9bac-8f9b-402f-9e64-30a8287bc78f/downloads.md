@@ -6,7 +6,7 @@ A runtime package is a precompiled application package that you can use in your 
 
 ## Application Information
 **Version:** 2.1.137.18463<br>
-**Updated:** 09/02/2026
+**Updated:** 09/04/2026
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
@@ -53,6 +53,7 @@ The following table lists the various on-premise platform versions that have bee
 | `17.3.20469.20605` | Business Central 2020 Release Wave 2 Cumulative Update 3 | 2.1.137.18463 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=17.3.20469.20605) |
 | `17.4.21491.21531` | Business Central 2020 Release Wave 2 Cumulative Update 4 | 2.1.137.18463 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=17.4.21491.21531) |
 | `17.5.22499.22546` | Business Central 2020 Release Wave 2 Cumulative Update 5 | 2.1.137.18463 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=17.5.22499.22546) |
+| `17.6.23727.0` | Business Central 2020 Release Wave 2 Cumulative Update 6 | 2.1.137.18463 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=17.6.23727.0) |
 | `17.7.26453.0` | Business Central 2020 Release Wave 2 Cumulative Update 7 | 2.1.137.18463 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=17.7.26453.0) |
 | `17.8.27267.0` | Business Central 2020 Release Wave 2 Cumulative Update 8 | 2.1.137.18463 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=17.8.27267.0) |
 | `17.9.28504.0` | Business Central 2020 Release Wave 2 Cumulative Update 9 | 2.1.137.18463 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=fcfc9bac-8f9b-402f-9e64-30a8287bc78f&version=17.9.28504.0) |
