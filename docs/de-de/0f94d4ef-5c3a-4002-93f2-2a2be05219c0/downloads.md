@@ -6,7 +6,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 ## Anwendungsinformationen
 **Version:** 17.13.1.27844<br>
-**Zuletzt aktualisiert:** 15.09.2026
+**Zuletzt aktualisiert:** 16.09.2026
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
@@ -53,7 +53,7 @@ In der folgenden Tabelle sind die verschiedenen On-Premise Plattform Versionen a
 | `17.3.20469.20605` | Business Central 2020 Release Wave 2 Cumulative Update 3 | 17.13.1.27844 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=17.3.20469.20605) |
 | `17.4.21491.21531` | Business Central 2020 Release Wave 2 Cumulative Update 4 | 17.13.1.27844 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=17.4.21491.21531) |
 | `17.5.22499.22546` | Business Central 2020 Release Wave 2 Cumulative Update 5 | 17.13.1.27844 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=17.5.22499.22546) |
-| `17.6.23727.0` | Business Central 2020 Release Wave 2 Cumulative Update 6 | 17.6.32.5650 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=17.6.23727.0) |
+| `17.6.23727.0` | Business Central 2020 Release Wave 2 Cumulative Update 6 | 17.13.1.27844 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=17.6.23727.0) |
 | `17.7.26453.0` | Business Central 2020 Release Wave 2 Cumulative Update 7 | 17.13.1.27844 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=17.7.26453.0) |
 | `17.8.27267.0` | Business Central 2020 Release Wave 2 Cumulative Update 8 | 17.13.1.27844 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=17.8.27267.0) |
 | `17.9.28504.0` | Business Central 2020 Release Wave 2 Cumulative Update 9 | 17.13.1.27844 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=0f94d4ef-5c3a-4002-93f2-2a2be05219c0&version=17.9.28504.0) |
