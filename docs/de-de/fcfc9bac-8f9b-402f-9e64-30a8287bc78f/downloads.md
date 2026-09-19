@@ -6,7 +6,7 @@ Ein Runtime Package ist ein vorkompiliertes Anwendungspaket, dass Sie in Ihrer M
 
 ## Anwendungsinformationen
 **Version:** 2.1.147.27737<br>
-**Zuletzt aktualisiert:** 18.09.2026
+**Zuletzt aktualisiert:** 19.09.2026
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
