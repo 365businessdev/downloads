@@ -5,8 +5,8 @@ This article publishes the various runtime packages for the 365 business E-Invoi
 A runtime package is a precompiled application package that you can use in your Microsoft Dynamics 365 Business Central on-premise installation. It is important to use the correct version for your platform version of Microsoft Dynamics 365 Business Central.
 
 ## Application Information
-**Version:** 25.4.415.29488<br>
-**Updated:** 11/22/2026
+**Version:** 25.4.419.29909<br>
+**Updated:** 11/23/2026
 
 <div class="alert alert-info">
     <i class="fa-duotone fa-solid fa-circle-info fa-xl"></i>
@@ -125,21 +125,21 @@ The following table lists the various on-premise platform versions that have bee
  
 | Platform Version | Business Central Version | Version | Download |
 | --- | --- | --- | --- |
-| `28.0.46665.48549` | Business Central 2026 Release Wave 1  | 25.4.415.29488 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=28.0.46665.48549) |
-| `28.1.49838.49886` | Business Central 2026 Release Wave 1 Cumulative Update 1 | 25.4.415.29488 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=28.1.49838.49886) |
-| `28.2.50931.51034` | Business Central 2026 Release Wave 1 Cumulative Update 2 | 25.4.415.29488 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=28.2.50931.51034) |
-| `28.3.52162.52222` | Business Central 2026 Release Wave 1 Cumulative Update 3 | 25.4.415.29488 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=28.3.52162.52222) |
-| `28.4.53241.0` | Business Central 2026 Release Wave 1 Cumulative Update 4 | 25.4.415.29488 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=28.4.53241.0) |
-| `28.5.54151.0` | Business Central 2026 Release Wave 1 Cumulative Update 5 | 25.4.415.29488 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=28.5.54151.0) |
-| `28.6.55443.0` | Business Central 2026 Release Wave 1 Cumulative Update 6 | 25.4.415.29488 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=28.6.55443.0) |
-| `28.7.57329.0` | Business Central 2026 Release Wave 1 Cumulative Update 7 | 25.4.415.29488 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=28.7.57329.0) |
+| `28.0.46665.48549` | Business Central 2026 Release Wave 1  | 25.4.419.29909 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=28.0.46665.48549) |
+| `28.1.49838.49886` | Business Central 2026 Release Wave 1 Cumulative Update 1 | 25.4.419.29909 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=28.1.49838.49886) |
+| `28.2.50931.51034` | Business Central 2026 Release Wave 1 Cumulative Update 2 | 25.4.419.29909 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=28.2.50931.51034) |
+| `28.3.52162.52222` | Business Central 2026 Release Wave 1 Cumulative Update 3 | 25.4.419.29909 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=28.3.52162.52222) |
+| `28.4.53241.0` | Business Central 2026 Release Wave 1 Cumulative Update 4 | 25.4.419.29909 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=28.4.53241.0) |
+| `28.5.54151.0` | Business Central 2026 Release Wave 1 Cumulative Update 5 | 25.4.419.29909 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=28.5.54151.0) |
+| `28.6.55443.0` | Business Central 2026 Release Wave 1 Cumulative Update 6 | 25.4.419.29909 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=28.6.55443.0) |
+| `28.7.57329.0` | Business Central 2026 Release Wave 1 Cumulative Update 7 | 25.4.419.29909 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=28.7.57329.0) |
 
  ## Business Central 2026 Release Wave 2 (BC 29)
  
 | Platform Version | Business Central Version | Version | Download |
 | --- | --- | --- | --- |
 | `29.0.54011.55407` | Business Central 2026 Release Wave 2  | 25.2.408.27270 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=29.0.54011.55407) |
-| `29.1.57326.57497` | Business Central 2026 Release Wave 2 Cumulative Update 1 | 25.4.415.29488 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=29.1.57326.57497) |
+| `29.1.57326.57497` | Business Central 2026 Release Wave 2 Cumulative Update 1 | 25.4.419.29909 | [Download](https://365businessapi.com/api/SoftwareDownload?AppId=cf38c5e4-71de-4e90-b544-4b1689e1db3f&version=29.1.57326.57497) |
 
 
 # See also
